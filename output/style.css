@@ -64,6 +64,7 @@ a:hover {
   height: 500px;
 
   border-right: 1px solid #ccc;
+  padding: 30px 0px 0px 0px;
 }
 
 #sidebar h2 {
@@ -91,4 +92,8 @@ a:hover {
 #sidebar a{
   text-transform: uppercase;
   color:black;
+}
+
+#sidebar a:hover{
+  color: #CF6A6F;
 }
