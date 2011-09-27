@@ -66,14 +66,13 @@ a:hover {
   border-right: 1px solid #ccc;
 }
 
-#sidebar h2 {
-  text-transform: uppercase;
-
+#sidebar h2 a{
   color: #333;
-
   letter-spacing: 1px;
-
   line-height: 20px;
+  font-family: 'Damion';
+  text-transform: none;
+  font-weight:normal;
 }
 
 #sidebar ul {
@@ -84,15 +83,27 @@ a:hover {
 
 #sidebar li {
   font-size: 14px;
-
   line-height: 40px;
 }
 
 #sidebar a{
   text-transform: uppercase;
-  color:black;
+  color:#333;
 }
 
 #sidebar a:hover{
   color: #CF6A6F;
+}
+
+#profile_pic{
+  top:20px;
+  left:550px;
+  position:absolute;
+}
+
+.framed_pic{
+  border: 1px solid #ccc;
+  padding:4px;
+  background: white;
+  margin: 10px 10px 10px 0px;
 }
