@@ -1,4 +1,4 @@
-{:	data{I"/stylesheet/:ET{:default{:	lastI"P* {
+{:	data{	I"/stylesheet/:ET{:default{:	lastI"8* {
   margin: 0;
   padding: 0;
 
@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #fff;
+  background: #F8F8F8;
 }
 
 a {
@@ -19,7 +19,7 @@ a:visited {
 }
 
 a:hover {
-  color: #f90;
+  color: #CF6A6F;
 }
 
 #main {
@@ -61,10 +61,9 @@ a:hover {
   top: 40px;
   left: 60px;
   width: 200px;
-  height: 500px;
+  height: 35em;
 
   border-right: 1px solid #ccc;
-  padding: 30px 0px 0px 0px;
 }
 
 #sidebar h2 {
@@ -99,7 +98,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"¡<!DOCTYPE HTML>
+I"/;T{;{	;I"c<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -121,8 +120,8 @@ I"/;T{;{	;I"¡<!DOCTYPE HTML>
     <div id="sidebar">
       <h2>David Petersen</h2>
       <ul>
-        <li><a href="http://nanoc.stoneship.org/docs/">Documentation</a></li>
-        <li><a href="http://nanoc.stoneship.org/docs/3-getting-started/">Getting Started</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
     </div>
   </body>
@@ -142,4 +141,56 @@ I"Ç<p>You‚Äôve just created a new nanoc site. The page you are looking at righ
   <li><p><strong>Change the layout</strong>, which is the ‚Äúdefault.html‚Äù file in the ‚Äúlayouts‚Äù directory, and create something unique (and hopefully less bland).</p></li>
 </ul>
 
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>;T:	post@:versioni
+<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>;T:	post@I"/about/;T{;{	;I"‰<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>David Petersen - About</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.2">
+  </head>
+  <body>
+    <div id="main">
+      <h1>Eat.Sleep.Develop</h1>
+
+
+
+<p>My name is David Petersen. I live in Rainy Corvallis Oregon. I enjoy soccer, traveling, and cooking.</p>
+
+<p>I love to dream about traveling, learning, and creating. I was fortunate enough to be able to spend the last year in France traveling and working. The chance to live in Paris for 6 months was truely eye opening for me. I had never been in a city that had a heartbeat of its own. Adjusting to a new culture was a wonderful experience for me. I fell in love with the food, <i>l'art de vivre</i>, and was fortunate to bring back a girlfriend as well.</p>
+
+<p>I have found that web is a means of creative outlet for me. I started learning HTML and CSS several years ago and have just been recently introduced to Ruby on Rails and Django. Both of these frameworks have turned out to be an excellent means of turning ideas quickly into reality. This is what I have found myself to being truely passionate about, being able to find a problem with the world and try to address it using technology. I have began to enjoy working more with Ruby on Rails, but I also work with Django for work. I don't feel tightly bound to one programming language or another, I am somewhat of a language agnostic, even though I do tend to drift toward python for most scripting projects.</p>
+
+<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project. My contact information is available through the contact section of this site.</p>
+    </div>
+    <div id="sidebar">
+      <h2>David Petersen</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"<h1>Eat.Sleep.Develop</h1>
+
+
+
+<p>My name is David Petersen. I live in Rainy Corvallis Oregon. I enjoy soccer, traveling, and cooking.</p>
+
+<p>I love to dream about traveling, learning, and creating. I was fortunate enough to be able to spend the last year in France traveling and working. The chance to live in Paris for 6 months was truely eye opening for me. I had never been in a city that had a heartbeat of its own. Adjusting to a new culture was a wonderful experience for me. I fell in love with the food, <i>l'art de vivre</i>, and was fortunate to bring back a girlfriend as well.</p>
+
+<p>I have found that web is a means of creative outlet for me. I started learning HTML and CSS several years ago and have just been recently introduced to Ruby on Rails and Django. Both of these frameworks have turned out to be an excellent means of turning ideas quickly into reality. This is what I have found myself to being truely passionate about, being able to find a problem with the world and try to address it using technology. I have began to enjoy working more with Ruby on Rails, but I also work with Django for work. I don't feel tightly bound to one programming language or another, I am somewhat of a language agnostic, even though I do tend to drift toward python for most scripting projects.</p>
+
+<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project. My contact information is available through the contact section of this site.</p>;T;
+I"<h1>Eat.Sleep.Develop</h1>
+
+
+
+<p>My name is David Petersen. I live in Rainy Corvallis Oregon. I enjoy soccer, traveling, and cooking.</p>
+
+<p>I love to dream about traveling, learning, and creating. I was fortunate enough to be able to spend the last year in France traveling and working. The chance to live in Paris for 6 months was truely eye opening for me. I had never been in a city that had a heartbeat of its own. Adjusting to a new culture was a wonderful experience for me. I fell in love with the food, <i>l'art de vivre</i>, and was fortunate to bring back a girlfriend as well.</p>
+
+<p>I have found that web is a means of creative outlet for me. I started learning HTML and CSS several years ago and have just been recently introduced to Ruby on Rails and Django. Both of these frameworks have turned out to be an excellent means of turning ideas quickly into reality. This is what I have found myself to being truely passionate about, being able to find a problem with the world and try to address it using technology. I have began to enjoy working more with Ruby on Rails, but I also work with Django for work. I don't feel tightly bound to one programming language or another, I am somewhat of a language agnostic, even though I do tend to drift toward python for most scripting projects.</p>
+
+<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project. My contact information is available through the contact section of this site.</p>;T;@I"	/me/;T{;{ :versioni

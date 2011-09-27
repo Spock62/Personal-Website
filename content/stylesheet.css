@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #fff;
+  background: #F8F8F8;
 }
 
 a {
@@ -61,10 +61,9 @@ a:hover {
   top: 40px;
   left: 60px;
   width: 200px;
-  height: 500px;
+  height: 35em;
 
   border-right: 1px solid #ccc;
-  padding: 30px 0px 0px 0px;
 }
 
 #sidebar h2 {
