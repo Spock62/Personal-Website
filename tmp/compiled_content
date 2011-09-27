@@ -1,4 +1,4 @@
-{:	data{I"/stylesheet/:ET{:default{:	lastI"à* {
+{:	data{I"/stylesheet/:ET{:default{:	lastI"* {
   margin: 0;
   padding: 0;
 
@@ -24,27 +24,21 @@ a:hover {
 
 #main {
   position: absolute;
-
   top: 40px;
-  left: 280px;
-
+  left: 300px;
   width: 500px;
 }
 
 #main h1 {
   font-size: 40px;
   font-weight: normal;
-
   line-height: 40px;
-
   letter-spacing: -1px;
 }
 
 #main p {
   margin: 20px 0;
-
   font-size: 15px;
-
   line-height: 20px;
 }
 
@@ -54,7 +48,6 @@ a:hover {
 
 #main li {
   font-size: 15px;
-
   line-height: 20px;
 }
 
@@ -66,10 +59,9 @@ a:hover {
   position: fixed;
 
   top: 40px;
-  left: 20px;
-  width: 300px;
-
-  padding: 20px 20px 0 0;
+  left: 60px;
+  width: 200px;
+  height: 500px;
 
   border-right: 1px solid #ccc;
 }
@@ -87,13 +79,18 @@ a:hover {
 #sidebar ul {
   list-style-type: none;
 
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 #sidebar li {
   font-size: 14px;
 
-  line-height: 20px;
+  line-height: 40px;
+}
+
+#sidebar a{
+  text-transform: uppercase;
+  color:black;
 }
 ;T:raw@
 :pre@
