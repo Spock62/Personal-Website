@@ -1,0 +1,9 @@
+---
+title: Blog Home
+---
+
+<% sorted_articles.each do |art| %>
+  <h3><%= link_to(art[:title], art) %></h3>
+  <span><%= art.mtime.to_date %></span>
+  <%= art[:excerpt] %>
+<% end %>

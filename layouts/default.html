@@ -9,12 +9,16 @@
   </head>
   <body>
     <div id="main">
+      <% if item[:kind] == 'article' %>
+        <%= render "_article" %>
+      <% end %>
       <%= yield %>
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo"><%= link_to("David Petersen", "/") %></h2>
       <ul>
-        <li><a href="/about">About</a></li>
+        <li><%= link_to("About", "/about/") %></li>
+        <li><%= link_to("Blog", "/blog/") %></li>
       </ul>
     </div>
   </body>

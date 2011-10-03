@@ -18,8 +18,15 @@ compile '/stylesheet/' do
 end
 
 compile '*' do
+
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
   if item.binary?
     # don’t filter binary items
+  elsif ext == 'md' || ext == 'markdown'
+    filter :erb
+    filter :rdiscount
+    layout 'default'
   else
     filter :erb
     layout 'default'
@@ -28,6 +35,15 @@ end
 
 route '/stylesheet/' do
   '/style.css'
+end
+
+route '/blog/*' do
+  if not rep.item.attributes[:filename] == "content/blog/index.html"
+    '/blog/' + rep.item.attributes[:title].gsub(/ /, '_').
+    downcase + ".html"
+  else
+    '/blog/index.html' 
+  end
 end
 
 route '*' do
