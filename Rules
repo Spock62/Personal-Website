@@ -13,7 +13,7 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/stylesheet/' do
+compile '/assets/*' do
   # don’t filter or layout
 end
 
@@ -33,8 +33,8 @@ compile '*' do
   end
 end
 
-route '/stylesheet/' do
-  '/style.css'
+route '/assets/stylesheets/*' do
+  '/assets/stylesheets/' + rep.item.attributes[:filename].split('/').last
 end
 
 route '/blog/*' do
@@ -43,6 +43,24 @@ route '/blog/*' do
     downcase + ".html"
   else
     '/blog/index.html' 
+  end
+end
+
+route '/projects/*' do
+  if not rep.item.attributes[:filename] == "content/projects/index.html"
+    '/projects/' + rep.item.attributes[:title].gsub(/ /, '_').
+    downcase + ".html"
+  else
+    '/projects/index.html' 
+  end
+end
+
+route '/playground/*' do
+  if not rep.item.attributes[:filename] == "content/playground/index.html"
+    '/playground/' + rep.item.attributes[:title].gsub(/ /, '_').
+    downcase + ".html"
+  else
+    '/playground/index.html' 
   end
 end
 

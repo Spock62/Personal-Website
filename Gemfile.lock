@@ -1,10 +1,12 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    coderay (1.0.0)
     rdiscount (1.6.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  coderay
   rdiscount
