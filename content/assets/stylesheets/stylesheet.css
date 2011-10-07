@@ -30,7 +30,7 @@ a:hover {
   position: absolute;
   top: 40px;
   left: 300px;
-  width: 500px;
+  width: 600px;
 }
 
 #main h1 {
@@ -65,8 +65,7 @@ a:hover {
   top: 40px;
   left: 60px;
   width: 200px;
-  height: 35em;
-
+  height: 90%;
   border-right: 1px solid #ccc;
 }
 
@@ -81,7 +80,7 @@ a:hover {
 
 #sidebar ul {
   list-style-type: none;
-  margin: 20px 0px;
+  margin: 5em 0px 15em 0px;
 }
 
 #sidebar li {
@@ -89,7 +88,7 @@ a:hover {
   line-height: 40px;
 }
 
-#sidebar a{
+#sidebar ul li a{
   text-transform: uppercase;
   color:#333;
 }
@@ -98,10 +97,8 @@ a:hover {
   color: #CF6A6F;
 }
 
-#profile_pic{
-  top:20px;
-  left:550px;
-  position:absolute;
+#sidebar span{
+  color:#333;
 }
 
 .framed_pic{

@@ -1,4 +1,4 @@
-{:	data{I"/stylesheet/:ET{:default{:	lastI"	* {
+{:	data{I"/stylesheet/:ET{:default{:	lastI"	* {
   margin: 0;
   padding: 0;
 
@@ -108,7 +108,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"î<!DOCTYPE HTML>
+I"/;T{;{	;I"ý<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -121,9 +121,13 @@ I"/;T{;{	;I"î<!DOCTYPE HTML>
   <body>
     <div id="main">
       
-      <h2>Hi!</h2>
+      <h2>I create applications on the web.</h2>
 
-<p>My name is David Petersen. I'm the founder of <a href="http://www.ridezap.com">RideZap</a>.</p>
+<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>
+
+<img class="framed_pic" src="/assets/images/dmca-thumb.png"/>
+<img class="framed_pic" src="/assets/images/ridezap-thumb.png"/>
+<img class="framed_pic" src="/assets/images/classes-thumb.png"/>
     </div>
     <div id="sidebar">
       <h2 id="logo"><a href="/">David Petersen</a></h2>
@@ -132,17 +136,26 @@ I"/;T{;{	;I"î<!DOCTYPE HTML>
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
-        <li><a href="/contact/">Contact</a></li>
       </ul>
+      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
+      <span>541-203-0228</span>
     </div>
   </body>
 </html>
-;T;	I"u<h2>Hi!</h2>
+;T;	I"<<h2>I create applications on the web.</h2>
 
-<p>My name is David Petersen. I'm the founder of <a href="http://www.ridezap.com">RideZap</a>.</p>;T;
-I"u<h2>Hi!</h2>
+<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>
 
-<p>My name is David Petersen. I'm the founder of <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"¹	<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/dmca-thumb.png"/>
+<img class="framed_pic" src="/assets/images/ridezap-thumb.png"/>
+<img class="framed_pic" src="/assets/images/classes-thumb.png"/>;T;
+I"<<h2>I create applications on the web.</h2>
+
+<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>
+
+<img class="framed_pic" src="/assets/images/dmca-thumb.png"/>
+<img class="framed_pic" src="/assets/images/ridezap-thumb.png"/>
+<img class="framed_pic" src="/assets/images/classes-thumb.png"/>;T:	post@I"/about/;T{;{	;I"«	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -163,9 +176,9 @@ I"u<h2>Hi!</h2>
 
 <p>I have found that web is a means of creative outlet for me. I started learning HTML and CSS several years ago and have just been recently introduced to Ruby on Rails and Django. Both of these frameworks have turned out to be an excellent means of turning ideas quickly into reality. This is what I have found myself to being truely passionate about, being able to find a problem with the world and try to address it using technology. I have began to enjoy working more with Ruby on Rails, but I also work with Django for work. I don't feel tightly bound to one programming language or another, I am somewhat of a language agnostic, even though I do tend to drift toward python for most scripting projects.</p>
 
-<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project. My contact information is available through the contact section of this site.</p>
+<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img id="profile_pic" class="framed_pic" src="/me.jpg"/>
+<img class="framed_pic" src="/assets/images/me.jpg"/>
     </div>
     <div id="sidebar">
       <h2 id="logo"><a href="/">David Petersen</a></h2>
@@ -174,12 +187,13 @@ I"u<h2>Hi!</h2>
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
-        <li><a href="/contact/">Contact</a></li>
       </ul>
+      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
+      <span>541-203-0228</span>
     </div>
   </body>
 </html>
-;T;	I":<h1>Eat.Sleep.Develop</h1>
+;T;	I"é<h1>Eat.Sleep.Develop</h1>
 
 <p>My name is David Petersen. I live in Rainy Corvallis Oregon. I enjoy soccer, traveling, and cooking.</p>
 
@@ -187,10 +201,10 @@ I"u<h2>Hi!</h2>
 
 <p>I have found that web is a means of creative outlet for me. I started learning HTML and CSS several years ago and have just been recently introduced to Ruby on Rails and Django. Both of these frameworks have turned out to be an excellent means of turning ideas quickly into reality. This is what I have found myself to being truely passionate about, being able to find a problem with the world and try to address it using technology. I have began to enjoy working more with Ruby on Rails, but I also work with Django for work. I don't feel tightly bound to one programming language or another, I am somewhat of a language agnostic, even though I do tend to drift toward python for most scripting projects.</p>
 
-<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project. My contact information is available through the contact section of this site.</p>
+<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img id="profile_pic" class="framed_pic" src="/me.jpg"/>;T;
-I":<h1>Eat.Sleep.Develop</h1>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;
+I"é<h1>Eat.Sleep.Develop</h1>
 
 <p>My name is David Petersen. I live in Rainy Corvallis Oregon. I enjoy soccer, traveling, and cooking.</p>
 
@@ -198,9 +212,9 @@ I":<h1>Eat.Sleep.Develop</h1>
 
 <p>I have found that web is a means of creative outlet for me. I started learning HTML and CSS several years ago and have just been recently introduced to Ruby on Rails and Django. Both of these frameworks have turned out to be an excellent means of turning ideas quickly into reality. This is what I have found myself to being truely passionate about, being able to find a problem with the world and try to address it using technology. I have began to enjoy working more with Ruby on Rails, but I also work with Django for work. I don't feel tightly bound to one programming language or another, I am somewhat of a language agnostic, even though I do tend to drift toward python for most scripting projects.</p>
 
-<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project. My contact information is available through the contact section of this site.</p>
+<p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img id="profile_pic" class="framed_pic" src="/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"Ÿ<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"â<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -226,8 +240,9 @@ I":<h1>Eat.Sleep.Develop</h1>
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
-        <li><a href="/contact/">Contact</a></li>
       </ul>
+      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
+      <span>541-203-0228</span>
     </div>
   </body>
 </html>
@@ -268,7 +283,7 @@ Test
 ;T;
 I"
 Test
-;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"Í<!DOCTYPE HTML>
+;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -294,8 +309,9 @@ Test
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
-        <li><a href="/contact/">Contact</a></li>
       </ul>
+      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
+      <span>541-203-0228</span>
     </div>
   </body>
 </html>
@@ -349,7 +365,7 @@ I"¹<p>This is a test.</p>
 <pre class="CodeRay"><code class="language-python"><span class="keyword">def</span> <span class="function">test_function</span>()
     do something</code></pre>
 
-;T;@2I"/playground/;T{;{	;I"Ê<!DOCTYPE HTML>
+;T;@2I"/playground/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -371,13 +387,14 @@ I"¹<p>This is a test.</p>
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
-        <li><a href="/contact/">Contact</a></li>
       </ul>
+      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
+      <span>541-203-0228</span>
     </div>
   </body>
 </html>
 ;T;	I"K<p>This will be index of different fun projects I am playing with.</p>;T;
-I"K<p>This will be index of different fun projects I am playing with.</p>;T;@8I"/projects/;T{;{	;I"¼<!DOCTYPE HTML>
+I"K<p>This will be index of different fun projects I am playing with.</p>;T;@8I"/projects/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -391,6 +408,8 @@ I"K<p>This will be index of different fun projects I am playing with.</p>;T;@
     <div id="main">
       
       <p>This is some of the projects that I have worked on.</p>
+
+
     </div>
     <div id="sidebar">
       <h2 id="logo"><a href="/">David Petersen</a></h2>
@@ -399,13 +418,20 @@ I"K<p>This will be index of different fun projects I am playing with.</p>;T;@
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
-        <li><a href="/contact/">Contact</a></li>
       </ul>
+      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
+      <span>541-203-0228</span>
     </div>
   </body>
 </html>
-;T;	I"?<p>This is some of the projects that I have worked on.</p>;T;
-I"?<p>This is some of the projects that I have worked on.</p>;T;@>I"/coderay/;T{;{	;I"	<!DOCTYPE HTML>
+;T;	I"š<p>This is some of the projects that I have worked on.</p>
+
+<% projects.each do |project| %>
+  <h3><%= link_to(project[:title], project) %></h3>
+<% end %>;T;
+I"A<p>This is some of the projects that I have worked on.</p>
+
+;T;@>I"/coderay/;T{;{	;I"	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -670,7 +696,7 @@ table.CodeRay {
 }
 
 ;T;	@J;
-@JI"$/assets/stylesheets/stylesheet/;T{;{;I"/* {
+@JI"$/assets/stylesheets/stylesheet/;T{;{;I"* {
   margin: 0;
   padding: 0;
 
@@ -702,7 +728,7 @@ a:hover {
   position: absolute;
   top: 40px;
   left: 300px;
-  width: 500px;
+  width: 600px;
 }
 
 #main h1 {
@@ -737,8 +763,7 @@ a:hover {
   top: 40px;
   left: 60px;
   width: 200px;
-  height: 35em;
-
+  height: 90%;
   border-right: 1px solid #ccc;
 }
 
@@ -753,7 +778,7 @@ a:hover {
 
 #sidebar ul {
   list-style-type: none;
-  margin: 20px 0px;
+  margin: 5em 0px 15em 0px;
 }
 
 #sidebar li {
@@ -761,7 +786,7 @@ a:hover {
   line-height: 40px;
 }
 
-#sidebar a{
+#sidebar ul li a{
   text-transform: uppercase;
   color:#333;
 }
@@ -770,10 +795,8 @@ a:hover {
   color: #CF6A6F;
 }
 
-#profile_pic{
-  top:20px;
-  left:550px;
-  position:absolute;
+#sidebar span{
+  color:#333;
 }
 
 .framed_pic{
@@ -811,4 +834,4 @@ a:hover {
   </body>
 </html>
 ;T;	I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;
-I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@R:versioni
+I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ :versioni

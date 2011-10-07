@@ -2,3 +2,7 @@
 title: Projects
 ---
 <p>This is some of the projects that I have worked on.</p>
+
+<% projects.each do |project| %>
+  <h3><%= link_to(project[:title], project) %></h3>
+<% end %>
