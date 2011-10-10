@@ -1,0 +1,13 @@
+<h2><%= item.attributes[:title] %></h2>
+
+<% if item[:url] %>
+  URL: <span><%= link_to item[:url], item[:url] %></span>
+<% end %>
+<% if item[:long_description] %>
+  <p><%= item[:long_description] %></p>
+<% else %>
+  <p><%= item[:short_description] %></p>
+<% end %>
+
+<img class="framed_pic" src="/assets/images/<%= item[:image] %>" />
+<br/>

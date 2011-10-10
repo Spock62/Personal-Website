@@ -1,8 +1,17 @@
 ---
 title: Projects
 ---
-<p>This is some of the projects that I have worked on.</p>
-
 <% projects.each do |project| %>
-  <h3><%= link_to(project[:title], project) %></h3>
+    <div style="height:250px">
+    <h3><%= link_to(project[:title], project) %></h3>
+    <div style="float:right; margin-left:30px;">
+      <img class="framed_pic" src="/assets/images/<%= project[:image] %>" />
+    </div>
+    <div style="margin-top:10px;">
+      <% if project[:url] %>
+        URL: <span><%= link_to project[:url], project[:url] %></span>
+      <% end %>
+      <p><%= project[:short_description] %></p>
+    </div>
+  </div>
 <% end %>
