@@ -27,10 +27,16 @@ a:hover {
 }
 
 #main {
-  position: absolute;
-  top: 40px;
-  left: 300px;
-  width: 600px;
+  /*
+   * position: absolute;
+   * top: 40px;
+   * left: 300px;
+  */
+  position:relative;
+  margin-top:40px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 700px;
 }
 
 #main h1 {
@@ -106,4 +112,8 @@ a:hover {
   padding:4px;
   background: white;
   margin: 10px 10px 10px 0px;
+}
+
+.pull_left{
+  float: left;
 }

@@ -108,7 +108,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I":<!DOCTYPE HTML>
+I"/;T{;{	;I"Ë<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -123,10 +123,10 @@ I"/;T{;{	;I":<!DOCTYPE HTML>
       
       <h2>I create applications on the web.</h2>
 
-<img class="framed_pic" src="/assets/images/dmca-thumb.png"/>
-<img class="framed_pic" src="/assets/images/ridezap-thumb.png"/>
-<img class="framed_pic" src="/assets/images/classes-thumb.png"/>
-<img class="framed_pic" src="/assets/images/lug-thumb.png"/>
+<a href="/projects/dmca_management.html"><img class="framed_pic" src="/assets/images/dmca-thumb.png"/></a>
+<a href="/projects/ridezap.html"><img class="framed_pic" src="/assets/images/ridezap-thumb.png"/></a>
+<a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
+<a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
 <p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>
     </div>
@@ -143,20 +143,20 @@ I"/;T{;{	;I":<!DOCTYPE HTML>
     </div>
   </body>
 </html>
-;T;	I"y<h2>I create applications on the web.</h2>
+;T;	I"'<h2>I create applications on the web.</h2>
 
-<img class="framed_pic" src="/assets/images/dmca-thumb.png"/>
-<img class="framed_pic" src="/assets/images/ridezap-thumb.png"/>
-<img class="framed_pic" src="/assets/images/classes-thumb.png"/>
-<img class="framed_pic" src="/assets/images/lug-thumb.png"/>
+<a href="/projects/dmca_management.html"><img class="framed_pic" src="/assets/images/dmca-thumb.png"/></a>
+<a href="/projects/ridezap.html"><img class="framed_pic" src="/assets/images/ridezap-thumb.png"/></a>
+<a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
+<a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
 <p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T;
-I"y<h2>I create applications on the web.</h2>
+I"'<h2>I create applications on the web.</h2>
 
-<img class="framed_pic" src="/assets/images/dmca-thumb.png"/>
-<img class="framed_pic" src="/assets/images/ridezap-thumb.png"/>
-<img class="framed_pic" src="/assets/images/classes-thumb.png"/>
-<img class="framed_pic" src="/assets/images/lug-thumb.png"/>
+<a href="/projects/dmca_management.html"><img class="framed_pic" src="/assets/images/dmca-thumb.png"/></a>
+<a href="/projects/ridezap.html"><img class="framed_pic" src="/assets/images/ridezap-thumb.png"/></a>
+<a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
+<a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
 <p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"´	<!DOCTYPE HTML>
 <html lang="en">
@@ -805,7 +805,7 @@ table.CodeRay {
 }
 
 ;T;	@J;
-@JI"$/assets/stylesheets/stylesheet/;T{;{;I"* {
+@JI"$/assets/stylesheets/stylesheet/;T{;{;I"ù* {
   margin: 0;
   padding: 0;
 
@@ -834,10 +834,16 @@ a:hover {
 }
 
 #main {
-  position: absolute;
-  top: 40px;
-  left: 300px;
-  width: 600px;
+  /*
+   * position: absolute;
+   * top: 40px;
+   * left: 300px;
+  */
+  position:relative;
+  margin-top:40px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 700px;
 }
 
 #main h1 {
@@ -914,6 +920,10 @@ a:hover {
   background: white;
   margin: 10px 10px 10px 0px;
 }
+
+.pull_left{
+  float: left;
+}
 ;T;	@N;
 @NI"/contact/;T{;{	;I"∂<!DOCTYPE HTML>
 <html lang="en">
@@ -943,7 +953,8 @@ a:hover {
   </body>
 </html>
 ;T;	I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;
-I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I"A<!DOCTYPE HTML>
+I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I">
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -959,14 +970,16 @@ I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/image
         <h2>Oregon State Registration API</h2>
 
 
+  <br/>
   URL: <span><a href="https://github.com/thedjpetersen/reglib">https://github.com/thedjpetersen/reglib</a></span>
 
 
-  <p>A library that screen scraped the Oregon State Registration frontend in order to create a usable API.</p>
+
+  <p>During the the 2011 school year I attended an engineering fair where they were showing projects the CS students had worked on. One of the projects was AI scheduler. This has been a project that is been laying around the CS department for a while and I wanted to see some outcome. So I was inspired and decided that I would write a library that worked effectivly as an API for the Oregon State Registration System.</p><p>I got to work using some of the python standard packages and wrote what was in essence a large library of screen scraping functions. The library worked similar to the way you would expect an API wrapper to work. This allowed you to manipulate and change classes.</p><p>Even though I put quiet a lot of work into this specific project it never gained any traction among the student programmers at OSU, and my interest in maintaining it waned.</p><p>Regardless I spent about 2 more months writing a frontend for the library to illustrate several points in how the registration process could be improved</p><p>I may come back to this project at some point, but repurpose the library using a sturdier library like mechanize and not rely soley on xpaths. Also I would have a server that spawns that would actually expose the classes as a restful API.</p><p>If you are an Oregon State student reading this and are interested in helping plase contact me.</p>
+  <br/>
 
 
 <img class="framed_pic" src="/assets/images/classes-thumb.png" />
-<br/>
 
       
       
@@ -987,7 +1000,7 @@ I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/image
 </html>
 ;T;	I" ;F;
 I"
-;F;@gI"/projects/ridezap/;T{;{	;I"Ï<!DOCTYPE HTML>
+;F;@gI"/projects/ridezap/;T{;{	;I"q<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1003,14 +1016,16 @@ I"
         <h2>RideZap</h2>
 
 
+  <br/>
   URL: <span><a href="http://www.ridezap.com">http://www.ridezap.com</a></span>
 
 
-  <p>Ridesharing website in order to make moving between cities and sharing the cost of gas easier.</p>
+
+  <p>After spending a year in France, I missed the website <a href="http://www.covoiturage.fr">Covoiturage</a>. This website made it much easier to move between cities and organize rides. I couldn't find a US equivalent at the time, and with my girlfriend living in another city I decided to make my own. This set off a multi-month project where I built RideZap.</p><p>RideZap is written in Ruby on Rails and much of the frontend interaction is handled with the Jquery library.</p>
+  <br/>
 
 
 <img class="framed_pic" src="/assets/images/ridezap-thumb.png" />
-<br/>
 
       
       
@@ -1031,7 +1046,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@mI"/projects/lug/;T{;{	;I"Î<!DOCTYPE HTML>
+;F;@mI"/projects/lug/;T{;{	;I"§<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1047,14 +1062,16 @@ I"
         <h2>Oregon State LUG</h2>
 
 
+  <br/>
   URL: <span><a href="http://lug.oregonstate.edu">http://lug.oregonstate.edu</a></span>
 
 
-  <p>Simple redesign of Drupal theme for the Oregon State Linux Users Group.</p>
+
+  <p>During the Spring term of 2011 the Oregon State Linux Users group upgraded their Drupal install wiping out the old theme. I stepped in to perform some emergancy surgery on the site and restore it to something other than the default drupal theme.</p>
+  <br/>
 
 
 <img class="framed_pic" src="/assets/images/lug-thumb.png" />
-<br/>
 
       
       
@@ -1075,7 +1092,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@sI"/projects/dmca/;T{;{	;I"•<!DOCTYPE HTML>
+;F;@sI"/projects/dmca/;T{;{	;I"∏<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1092,11 +1109,12 @@ I"
 
 
 
-  <p>A frontend to manage students at Oregon State who reported to have been caught filesharing.</p>
+
+  <p>This is a project that I started for when I was working for network services at Oregon State University. They needed wanted a frontend to help manage student accounts who had been caught downloading on the school network</p><p>I ended up creating the frontend using Django. The backend ended up working with different school systems that managed student accounts.</a>
+  <br/>
 
 
 <img class="framed_pic" src="/assets/images/dmca-thumb.png" />
-<br/>
 
       
       
