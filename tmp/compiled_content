@@ -1,4 +1,4 @@
-{:	data{I"/stylesheet/:ET{:default{:	lastI"	* {
+{:	data{I"/stylesheet/:ET{:default{:	lastI"	* {
   margin: 0;
   padding: 0;
 
@@ -232,7 +232,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
       
       
   <h3><a href="/blog/comparing_static_web_frameworks.html">Comparing Static Web Frameworks</a></h3>
-  <span>October 03, 2011</span>
+  <span>October 11, 2011</span>
   <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to loo...</p>
 
     </div>
@@ -256,7 +256,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
 <% end %>;T;
 I""
   <h3><a href="/blog/comparing_static_web_frameworks.html">Comparing Static Web Frameworks</a></h3>
-  <span>October 03, 2011</span>
+  <span>October 11, 2011</span>
   <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to loo...</p>
 ;T;@ I"/blog/test/;T{;{	;I"a<!DOCTYPE HTML>
 <html lang="en">
@@ -286,7 +286,8 @@ Test
 ;T;
 I"
 Test
-;T;@&I"!/blog/static_web_frameworks/;T{;{	;I".<!DOCTYPE HTML>
+;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"V
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -300,10 +301,22 @@ Test
     <div id="main">
       
         <h2>Comparing Static Web Frameworks</h2>
-<span>October 03, 2011</span>
+<span>October 11, 2011</span>
 
       
       <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
+
+<h3>Why static website generator?</h3>
+
+<p>Using a static website generator for everyone is not for everyone. If you are running a web application, or dealing with any sort of dynamic content it probably isn't for you.</p>
+
+<p>It is for you if you are running anything where the content is added specifcally by you, or by a group of people. The misconception is in the name. Having a static website generator does not necessarily mean that the website you are building is going to be <em>static</em>.</p>
+
+<h3>The search</h3>
+
+<p>My search for the ideal static website framework* started where it ususally does, <a href="http://www.hnsearch.com/">Hacker News search</a>. After spending a few minutes looking through the <a href="http://iwantmyname.com/blog/2011/02/list-static-website-generators.html">search results</a> I was able to learn of some different types of static web frameworks as well as find out some of the opinions of the knowledgable community.</p>
+
+<p>Eventually my search led to the <a href="http://nanoc.stoneship.org/">nanoc website</a> where the author left a semi-complete links to a <a href="http://nanoc.stoneship.org/docs/1-introduction/#similar-projects">large number</a> of open source static website generators. This really became my home base as I could look at the different options.</p>
 
     </div>
     <div id="sidebar">
@@ -319,8 +332,31 @@ Test
     </div>
   </body>
 </html>
-;T;	I"óRecently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.;T;
-I"û<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
+;T;	I"	Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.
+
+###Why static website generator?
+Using a static website generator for everyone is not for everyone. If you are running a web application, or dealing with any sort of dynamic content it probably isn't for you.
+
+It is for you if you are running anything where the content is added specifcally by you, or by a group of people. The misconception is in the name. Having a static website generator does not necessarily mean that the website you are building is going to be *static*.  
+
+###The search
+
+My search for the ideal static website framework* started where it ususally does, <%= link_to("Hacker News search", "http://www.hnsearch.com/") %>. After spending a few minutes looking through the <%= link_to("search results", "http://iwantmyname.com/blog/2011/02/list-static-website-generators.html") %> I was able to learn of some different types of static web frameworks as well as find out some of the opinions of the knowledgable community.
+
+Eventually my search led to the <%= link_to("nanoc website", "http://nanoc.stoneship.org/") %> where the author left a semi-complete links to a <%= link_to("large number", "http://nanoc.stoneship.org/docs/1-introduction/#similar-projects") %> of open source static website generators. This really became my home base as I could look at the different options.;T;
+I"#<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
+
+<h3>Why static website generator?</h3>
+
+<p>Using a static website generator for everyone is not for everyone. If you are running a web application, or dealing with any sort of dynamic content it probably isn't for you.</p>
+
+<p>It is for you if you are running anything where the content is added specifcally by you, or by a group of people. The misconception is in the name. Having a static website generator does not necessarily mean that the website you are building is going to be <em>static</em>.</p>
+
+<h3>The search</h3>
+
+<p>My search for the ideal static website framework* started where it ususally does, <a href="http://www.hnsearch.com/">Hacker News search</a>. After spending a few minutes looking through the <a href="http://iwantmyname.com/blog/2011/02/list-static-website-generators.html">search results</a> I was able to learn of some different types of static web frameworks as well as find out some of the opinions of the knowledgable community.</p>
+
+<p>Eventually my search led to the <a href="http://nanoc.stoneship.org/">nanoc website</a> where the author left a semi-complete links to a <a href="http://nanoc.stoneship.org/docs/1-introduction/#similar-projects">large number</a> of open source static website generators. This really became my home base as I could look at the different options.</p>
 ;T;@,I"/blog/testing/;T{;{	;I"{<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -369,7 +405,7 @@ I"¹<p>This is a test.</p>
 <pre class="CodeRay"><code class="language-python"><span class="keyword">def</span> <span class="function">test_function</span>()
     do something</code></pre>
 
-;T;@2I"/playground/;T{;{	;I"<!DOCTYPE HTML>
+;T;@2I"/playground/;T{;{	;I"c<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -383,6 +419,9 @@ I"¹<p>This is a test.</p>
     <div id="main">
       
       <p>This will be index of different fun projects I am playing with.</p>
+
+    <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
+
     </div>
     <div id="sidebar">
       <h2 id="logo"><a href="/">David Petersen</a></h2>
@@ -397,8 +436,14 @@ I"¹<p>This is a test.</p>
     </div>
   </body>
 </html>
-;T;	I"K<p>This will be index of different fun projects I am playing with.</p>;T;
-I"K<p>This will be index of different fun projects I am playing with.</p>;T;@8I"/projects/;T{;{	;I"Z<!DOCTYPE HTML>
+;T;	I"³<p>This will be index of different fun projects I am playing with.</p>
+<% playgrounds.each do |playground| %>
+    <h3><%= link_to(playground[:title], playground) %></h3>
+<% end %>;T;
+I"œ<p>This will be index of different fun projects I am playing with.</p>
+
+    <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
+;T;@8I"/projects/;T{;{	;I"Z<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1135,4 +1180,153 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@y:versioni
+;F;@yI" /playground/facebook_music/;T{;{	;I"	<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>David Petersen - Facebook Playlister</title>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
+    <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    <meta name="generator" content="nanoc 3.2.2">
+  </head>
+  <body>
+    <div id="main">
+      
+        <h2>Facebook Playlister</h2>
+
+      
+      <div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '226163574111342', // App ID
+      channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      oauth      : true, // enable OAuth 2.0
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));
+</script>
+<script>
+window.onload = function() {
+ FB.login(function(response) {
+   if (response.authResponse) {
+     console.log('Welcome!  Fetching your information.... ');
+     FB.api('/me', function(response) {
+       console.log('Good to see you, ' + response.name + '.');
+       FB.logout(function(response) {
+         console.log('Logged out.');
+       });
+     });
+   } else {
+     console.log('User cancelled login or did not fully authorize.');
+   }
+ }, {scope: 'email'});
+};
+</script>
+    </div>
+    <div id="sidebar">
+      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <ul>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/playground/">Playground</a></li>
+      </ul>
+      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
+      <span>541-203-0228</span>
+    </div>
+  </body>
+</html>
+;T;	I"<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '226163574111342', // App ID
+      channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      oauth      : true, // enable OAuth 2.0
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));
+</script>
+<script>
+window.onload = function() {
+ FB.login(function(response) {
+   if (response.authResponse) {
+     console.log('Welcome!  Fetching your information.... ');
+     FB.api('/me', function(response) {
+       console.log('Good to see you, ' + response.name + '.');
+       FB.logout(function(response) {
+         console.log('Logged out.');
+       });
+     });
+   } else {
+     console.log('User cancelled login or did not fully authorize.');
+   }
+ }, {scope: 'email'});
+};
+</script>;T;
+I"<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '226163574111342', // App ID
+      channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      oauth      : true, // enable OAuth 2.0
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));
+</script>
+<script>
+window.onload = function() {
+ FB.login(function(response) {
+   if (response.authResponse) {
+     console.log('Welcome!  Fetching your information.... ');
+     FB.api('/me', function(response) {
+       console.log('Good to see you, ' + response.name + '.');
+       FB.logout(function(response) {
+         console.log('Logged out.');
+       });
+     });
+   } else {
+     console.log('User cancelled login or did not fully authorize.');
+   }
+ }, {scope: 'email'});
+};
+</script>;T;@:versioni
