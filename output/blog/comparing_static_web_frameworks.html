@@ -12,10 +12,12 @@
     <div id="main">
       
         <h2>Comparing Static Web Frameworks</h2>
-<span>October 11, 2011</span>
+<span>October 13, 2011</span>
 
       
-      <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
+      <p><em>This post is still a draft</em></p>
+
+<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
 
 <h3>Why static website generator?</h3>
 
@@ -25,9 +27,25 @@
 
 <h3>The search</h3>
 
-<p>My search for the ideal static website framework* started where it ususally does, <a href="http://www.hnsearch.com/">Hacker News search</a>. After spending a few minutes looking through the <a href="http://iwantmyname.com/blog/2011/02/list-static-website-generators.html">search results</a> I was able to learn of some different types of static web frameworks as well as find out some of the opinions of the knowledgable community.</p>
+<p>My search for the ideal static website framework* started where it ususally does, <a href="http://www.hnsearch.com/">Hacker News search</a>. After spending a few minutes looking through the <a href="http://www.hnsearch.com/search#request/all&amp;q=static+web+generator&amp;start=0">search results</a> I was able to learn of some different types of static web frameworks as well as find out some of the opinions of the knowledgable community.</p>
 
-<p>Eventually my search led to the <a href="http://nanoc.stoneship.org/">nanoc website</a> where the author left a semi-complete links to a <a href="http://nanoc.stoneship.org/docs/1-introduction/#similar-projects">large number</a> of open source static website generators. This really became my home base as I could look at the different options.</p>
+<p>Eventually my search led to the <a href="http://nanoc.stoneship.org/">nanoc website</a> where the author left a semi-complete links to a <a href="http://nanoc.stoneship.org/docs/1-introduction/#similar-projects">large number</a> of open source static website generators. This really became my home base as I could look at the different options. So now I could look at each static framework one by one.</p>
+
+<h3>The examination</h3>
+
+<p>Now that I have begin to look at some of these frameworks lets dig in to them to see if we can find some differences. I started by looking at Jekyll.</p>
+
+<p><a href="https://github.com/mojombo/jekyll">Jekyll</a> is a popular static web framework written in Ruby by Tom Preston-Warner, the founder of Github.</p>
+
+<p>I noticed that Jekyll managed documents by including <a href="https://github.com/mojombo/jekyll/wiki/yaml-front-matter">YAML</a> at the front of the file. This helps when adding custom variables to your documents you want to use later. This is the same in Nanoc and it is a feature that is very nice when working out with different standard docs. I ended up including a lot of different data in the YAML part of the file then referencing it the compilation.</p>
+
+<p>Probably the most mature Python static web page generator is <a href="http://ringce.com/hyde">Hyde</a>. Hyde is uses a some specific tools out of the box: the django templating language, support for sass and scss for your CSS files and support for breadcrumbs/excerpts and pagination.</p>
+
+<p>I also decided to look at <a href="https://github.com/mythmon/wok">Wok</a>, a project that my friend Mike Cooper is working on. He wanted to create an alternative to Hyde another static web page generator in Python.</p>
+
+<h3>Conclusion</h3>
+
+<p>I finally concluded I wanted to use Nanoc because it appears that it is the most extendable option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another oen</p>
 
     </div>
     <div id="sidebar">
