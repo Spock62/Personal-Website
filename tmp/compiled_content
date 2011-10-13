@@ -1366,8 +1366,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@yI" /playground/facebook_music/;T{;{	;I"ò
-<!DOCTYPE HTML>
+;F;@yI" /playground/facebook_music/;T{;{	;I"3<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1393,9 +1392,27 @@ I"
       cookie     : true, // enable cookies to allow the server to access the session
       oauth      : true, // enable OAuth 2.0
       xfbml      : true  // parse XFBML
+
     });
 
     // Additional initialization code here
+    FB.login(function(response) {
+      if (response.authResponse) {
+        console.log('Welcome!  Fetching your information.... ');
+        FB.api('/me', function(response) {
+          console.log('Good to see you, ' + response.name + '.');
+          FB.logout(function(response) {
+            console.log('Logged out.');
+          });
+        });
+      } else {
+        console.log('User cancelled login or did not fully authorize.');
+      }
+    }, {scope: 'email'});
+
+    FB.api('/me', function(response) {
+      alert(response.name);
+    });
   };
 
   // Load the SDK Asynchronously
@@ -1405,23 +1422,6 @@ I"
      js.src = "//connect.facebook.net/en_US/all.js";
      d.getElementsByTagName('head')[0].appendChild(js);
    }(document));
-</script>
-<script>
-window.onload = function() {
- FB.login(function(response) {
-   if (response.authResponse) {
-     console.log('Welcome!  Fetching your information.... ');
-     FB.api('/me', function(response) {
-       console.log('Good to see you, ' + response.name + '.');
-       FB.logout(function(response) {
-         console.log('Logged out.');
-       });
-     });
-   } else {
-     console.log('User cancelled login or did not fully authorize.');
-   }
- }, {scope: 'email'});
-};
 </script>
     </div>
     <div id="sidebar">
@@ -1450,7 +1450,7 @@ window.onload = function() {
   </script>
   </body>
 </html>
-;T;	I"<div id="fb-root"></div>
+;T;	I"G<div id="fb-root"></div>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -1460,9 +1460,27 @@ window.onload = function() {
       cookie     : true, // enable cookies to allow the server to access the session
       oauth      : true, // enable OAuth 2.0
       xfbml      : true  // parse XFBML
+
     });
 
     // Additional initialization code here
+    FB.login(function(response) {
+      if (response.authResponse) {
+        console.log('Welcome!  Fetching your information.... ');
+        FB.api('/me', function(response) {
+          console.log('Good to see you, ' + response.name + '.');
+          FB.logout(function(response) {
+            console.log('Logged out.');
+          });
+        });
+      } else {
+        console.log('User cancelled login or did not fully authorize.');
+      }
+    }, {scope: 'email'});
+
+    FB.api('/me', function(response) {
+      alert(response.name);
+    });
   };
 
   // Load the SDK Asynchronously
@@ -1472,25 +1490,8 @@ window.onload = function() {
      js.src = "//connect.facebook.net/en_US/all.js";
      d.getElementsByTagName('head')[0].appendChild(js);
    }(document));
-</script>
-<script>
-window.onload = function() {
- FB.login(function(response) {
-   if (response.authResponse) {
-     console.log('Welcome!  Fetching your information.... ');
-     FB.api('/me', function(response) {
-       console.log('Good to see you, ' + response.name + '.');
-       FB.logout(function(response) {
-         console.log('Logged out.');
-       });
-     });
-   } else {
-     console.log('User cancelled login or did not fully authorize.');
-   }
- }, {scope: 'email'});
-};
 </script>;T;
-I"<div id="fb-root"></div>
+I"G<div id="fb-root"></div>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -1500,9 +1501,27 @@ I"<div id="fb-root"></div>
       cookie     : true, // enable cookies to allow the server to access the session
       oauth      : true, // enable OAuth 2.0
       xfbml      : true  // parse XFBML
+
     });
 
     // Additional initialization code here
+    FB.login(function(response) {
+      if (response.authResponse) {
+        console.log('Welcome!  Fetching your information.... ');
+        FB.api('/me', function(response) {
+          console.log('Good to see you, ' + response.name + '.');
+          FB.logout(function(response) {
+            console.log('Logged out.');
+          });
+        });
+      } else {
+        console.log('User cancelled login or did not fully authorize.');
+      }
+    }, {scope: 'email'});
+
+    FB.api('/me', function(response) {
+      alert(response.name);
+    });
   };
 
   // Load the SDK Asynchronously
@@ -1512,21 +1531,4 @@ I"<div id="fb-root"></div>
      js.src = "//connect.facebook.net/en_US/all.js";
      d.getElementsByTagName('head')[0].appendChild(js);
    }(document));
-</script>
-<script>
-window.onload = function() {
- FB.login(function(response) {
-   if (response.authResponse) {
-     console.log('Welcome!  Fetching your information.... ');
-     FB.api('/me', function(response) {
-       console.log('Good to see you, ' + response.name + '.');
-       FB.logout(function(response) {
-         console.log('Logged out.');
-       });
-     });
-   } else {
-     console.log('User cancelled login or did not fully authorize.');
-   }
- }, {scope: 'email'});
-};
 </script>;T;@:versioni
