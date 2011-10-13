@@ -108,7 +108,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"è<!DOCTYPE HTML>
+I"/;T{;{	;I"×<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -141,6 +141,19 @@ I"/;T{;{	;I"è<!DOCTYPE HTML>
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I"'<h2>I create applications on the web.</h2>
@@ -158,7 +171,7 @@ I"'<h2>I create applications on the web.</h2>
 <a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
 <a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
-<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"«	<!DOCTYPE HTML>
+<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"š<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -194,6 +207,19 @@ I"'<h2>I create applications on the web.</h2>
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I"é<h1>Eat.Sleep.Develop</h1>
@@ -217,7 +243,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"Ø<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"Ç<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -249,6 +275,19 @@ Recently I decided to upgrade my personal website to a static website since the 
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I"Ü<% sorted_articles.each do |art| %>
@@ -290,7 +329,7 @@ Test
 ;T;
 I"
 Test
-;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"\<!DOCTYPE HTML>
+;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"K<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -351,6 +390,19 @@ Test
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I"á*This post is still a draft*
@@ -462,7 +514,7 @@ I"¹<p>This is a test.</p>
 <pre class="CodeRay"><code class="language-python"><span class="keyword">def</span> <span class="function">test_function</span>()
     do something</code></pre>
 
-;T;@2I"/playground/;T{;{	;I"c<!DOCTYPE HTML>
+;T;@2I"/playground/;T{;{	;I"R<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -491,6 +543,19 @@ I"¹<p>This is a test.</p>
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I"³<p>This will be index of different fun projects I am playing with.</p>
@@ -500,7 +565,7 @@ I"¹<p>This is a test.</p>
 I"œ<p>This will be index of different fun projects I am playing with.</p>
 
     <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
-;T;@8I"/projects/;T{;{	;I"Z<!DOCTYPE HTML>
+;T;@8I"/projects/;T{;{	;I"I<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -576,6 +641,19 @@ I"œ<p>This will be index of different fun projects I am playing with.</p>
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I"â<% projects.each do |project| %>
@@ -1055,8 +1133,7 @@ a:hover {
   </body>
 </html>
 ;T;	I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;
-I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I">
-<!DOCTYPE HTML>
+I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I"-<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1098,11 +1175,24 @@ I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/image
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I" ;F;
 I"
-;F;@gI"/projects/ridezap/;T{;{	;I"q<!DOCTYPE HTML>
+;F;@gI"/projects/ridezap/;T{;{	;I"`<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1144,11 +1234,24 @@ I"
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I" ;F;
 I"
-;F;@mI"/projects/lug/;T{;{	;I"¤<!DOCTYPE HTML>
+;F;@mI"/projects/lug/;T{;{	;I"“<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1190,11 +1293,24 @@ I"
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I" ;F;
 I"
-;F;@sI"/projects/dmca/;T{;{	;I"¸<!DOCTYPE HTML>
+;F;@sI"/projects/dmca/;T{;{	;I"§<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1233,11 +1349,25 @@ I"
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I" ;F;
 I"
-;F;@yI" /playground/facebook_music/;T{;{	;I"	<!DOCTYPE HTML>
+;F;@yI" /playground/facebook_music/;T{;{	;I"ò
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1305,6 +1435,19 @@ window.onload = function() {
       <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
       <span>541-203-0228</span>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
   </body>
 </html>
 ;T;	I"<div id="fb-root"></div>
