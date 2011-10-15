@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/smoothness/jquery-ui.css" type="text/css" rel="Stylesheet" />
+
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -14,47 +17,17 @@
         <h2>Facebook Playlister</h2>
 
       
-      <div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '226163574111342', // App ID
-      channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
-      status     : true, // check login status
-      cookie     : true, // enable cookies to allow the server to access the session
-      oauth      : true, // enable OAuth 2.0
-      xfbml      : true  // parse XFBML
+      <div id="fb-root">
+  <div id="info-bar"></div>
+  <div id="ytapiplayer">
+  </div>
+  <div id="friends_input">
+    <input id="friends_autocomplete"/>
+  </div>
+</div>
 
-    });
 
-    // Additional initialization code here
-    FB.login(function(response) {
-      if (response.authResponse) {
-        console.log('Welcome!  Fetching your information.... ');
-        FB.api('/me', function(response) {
-          console.log('Good to see you, ' + response.name + '.');
-          FB.logout(function(response) {
-            console.log('Logged out.');
-          });
-        });
-      } else {
-        console.log('User cancelled login or did not fully authorize.');
-      }
-    }, {scope: 'email'});
 
-    FB.api('/me', function(response) {
-      alert(response.name);
-    });
-  };
-
-  // Load the SDK Asynchronously
-  (function(d){
-     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/en_US/all.js";
-     d.getElementsByTagName('head')[0].appendChild(js);
-   }(document));
-</script>
     </div>
     <div id="sidebar">
       <h2 id="logo"><a href="/">David Petersen</a></h2>
@@ -80,5 +53,98 @@
     })();
 
   </script>
+  
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script type="text/javascript">
+  var friends, friends_list, feed, youtube_list, ytplayer;
+
+  function onYouTubePlayerReady(playerId) {
+    ytplayer = document.getElementById("myytplayer");
+    ytplayer.loadPlaylist(youtube_list);
+  }
+  function playlist_magic(){
+    if(ytplayer){
+      ytplayer.loadPlaylist(youtube_list);
+    }
+    else{
+      var params = { allowScriptAccess: "always" };
+      var atts = { id: "myytplayer" };
+      swfobject.embedSWF("http://www.youtube.com/v/jy1dByhbLqM?version=3&enablejsapi=1&playerapiid=player1",
+                "ytapiplayer", "480", "295", "9", null, null, params, atts);
+    }
+  }
+
+  function get_videos(userid){
+    FB.api(
+        {
+          method: 'fql.query',
+          query: 'SELECT url FROM link WHERE owner = ' + userid
+        },
+        function(response){
+          var link;
+          feed = response;
+          youtube_list = [];
+          for (index in feed){
+            link = feed[index].url;
+            if (link) {
+              if(link.search('youtube') === 11){
+                youtube_list.push(link.slice(31,42))
+              }
+              if(link.search('youtube') === 13){
+                youtube_list.push(link.slice(42,53))
+              }
+            }
+          }
+          playlist_magic();
+        });
+    }
+
+    FB.init({
+      appId      : '226163574111342', // App ID
+      channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      oauth      : true, // enable OAuth 2.0
+      xfbml      : true  // parse XFBML
+
+    });
+
+    // Additional initialization code here
+    FB.login(function(response) {
+      if (response.authResponse) {
+        console.log('Welcome!  Fetching your information.... ');
+        FB.api('/me', function(response) {
+          console.log('Good to see you, ' + response.name + '.');
+          $("#info-bar").append(response.name + ' signed in correctly');
+        });
+
+        FB.api('/me/friends', function(response) {
+          friends=response;
+          friends_list = [];
+          for (index in friends.data){
+            friends_list.push(friends.data[index].name)
+          }
+
+          $("#friends_autocomplete").autocomplete({
+            source: friends_list,
+            select: function( event, ui ){
+              var friend_id;
+              friend_id = friends.data[friends_list.indexOf( ui.item.value)].id;
+              get_videos(friend_id);
+            }
+          });
+
+        });
+
+
+      } else {
+        console.log('User cancelled login or did not fully authorize.');
+      }
+    }, {scope: 'email read_stream'});
+</script>
+
   </body>
 </html>

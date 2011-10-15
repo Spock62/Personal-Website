@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    <%= @item[:content_for_stylesheets] %>
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -39,5 +40,6 @@
     })();
 
   </script>
+  <%= @item[:content_for_javascripts] %>
   </body>
 </html>

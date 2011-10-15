@@ -108,7 +108,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"◊<!DOCTYPE HTML>
+I"/;T{;{	;I"ﬂ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -116,6 +116,7 @@ I"/;T{;{	;I"◊<!DOCTYPE HTML>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -154,6 +155,7 @@ I"/;T{;{	;I"◊<!DOCTYPE HTML>
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I"'<h2>I create applications on the web.</h2>
@@ -171,7 +173,7 @@ I"'<h2>I create applications on the web.</h2>
 <a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
 <a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
-<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"ö<!DOCTYPE HTML>
+<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"¢<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -179,6 +181,7 @@ I"'<h2>I create applications on the web.</h2>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -220,6 +223,7 @@ I"'<h2>I create applications on the web.</h2>
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I"È<h1>Eat.Sleep.Develop</h1>
@@ -243,7 +247,7 @@ I"È<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"«<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"œ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -251,6 +255,7 @@ I"È<h1>Eat.Sleep.Develop</h1>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -288,6 +293,7 @@ Recently I decided to upgrade my personal website to a static website since the 
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I"‹<% sorted_articles.each do |art| %>
@@ -329,7 +335,7 @@ Test
 ;T;
 I"
 Test
-;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"K<!DOCTYPE HTML>
+;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"S<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -337,6 +343,7 @@ Test
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -403,6 +410,7 @@ Test
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I"·*This post is still a draft*
@@ -514,7 +522,7 @@ I"π<p>This is a test.</p>
 <pre class="CodeRay"><code class="language-python"><span class="keyword">def</span> <span class="function">test_function</span>()
     do something</code></pre>
 
-;T;@2I"/playground/;T{;{	;I"R<!DOCTYPE HTML>
+;T;@2I"/playground/;T{;{	;I"Z<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -522,6 +530,7 @@ I"π<p>This is a test.</p>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -556,6 +565,7 @@ I"π<p>This is a test.</p>
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I"≥<p>This will be index of different fun projects I am playing with.</p>
@@ -565,7 +575,7 @@ I"π<p>This is a test.</p>
 I"ú<p>This will be index of different fun projects I am playing with.</p>
 
     <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
-;T;@8I"/projects/;T{;{	;I"I<!DOCTYPE HTML>
+;T;@8I"/projects/;T{;{	;I"Q<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -573,6 +583,7 @@ I"ú<p>This will be index of different fun projects I am playing with.</p>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -654,6 +665,7 @@ I"ú<p>This will be index of different fun projects I am playing with.</p>
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I"‚<% projects.each do |project| %>
@@ -985,7 +997,7 @@ table.CodeRay {
 }
 
 ;T;	@J;
-@JI"$/assets/stylesheets/stylesheet/;T{;{;I"ù* {
+@JI"$/assets/stylesheets/stylesheet/;T{;{;I"û* {
   margin: 0;
   padding: 0;
 
@@ -1035,8 +1047,8 @@ a:hover {
 
 #main p {
   margin: 20px 0;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 1.6em;
 }
 
 #main ul, #main ol {
@@ -1133,7 +1145,7 @@ a:hover {
   </body>
 </html>
 ;T;	I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;
-I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I"-<!DOCTYPE HTML>
+I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I"5<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1141,6 +1153,7 @@ I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/image
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -1154,7 +1167,7 @@ I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/image
 
 
 
-  <p>During the the 2011 school year I attended an engineering fair where they were showing projects the CS students had worked on. One of the projects was AI scheduler. This has been a project that is been laying around the CS department for a while and I wanted to see some outcome. So I was inspired and decided that I would write a library that worked effectivly as an API for the Oregon State Registration System.</p><p>I got to work using some of the python standard packages and wrote what was in essence a large library of screen scraping functions. The library worked similar to the way you would expect an API wrapper to work. This allowed you to manipulate and change classes.</p><p>Even though I put quiet a lot of work into this specific project it never gained any traction among the student programmers at OSU, and my interest in maintaining it waned.</p><p>Regardless I spent about 2 more months writing a frontend for the library to illustrate several points in how the registration process could be improved</p><p>I may come back to this project at some point, but repurpose the library using a sturdier library like mechanize and not rely soley on xpaths. Also I would have a server that spawns that would actually expose the classes as a restful API.</p><p>If you are an Oregon State student reading this and are interested in helping plase contact me.</p>
+  <p>During the the 2011 school year I attended an engineering fair where they were showing projects the CS students had worked on. One of the projects was AI scheduler. This has been a project that is been laying around the CS department for a while and I wanted to see some outcome. So I was inspired and decided that I would write a library that worked effectivly as an API for the Oregon State Registration System.</p><p>I got to work using some of the python standard packages and wrote what was in essence a large library of screen scraping functions. The library worked similar to the way you would expect an API wrapper to work. This allowed you to manipulate and change classes.</p><p>Even though I put quite a lot of work into this specific project it never gained any traction among the student programmers at OSU, and my interest in maintaining it waned.</p><p>Regardless I spent about 2 more months writing a frontend for the library to illustrate several points in how the registration process could be improved</p><p>I may come back to this project at some point, but repurpose the library using a sturdier library like mechanize and not rely soley on xpaths. Also I would have a server that spawns that would actually expose the classes as a restful API.</p><p>If you are an Oregon State student reading this and are interested in helping plase contact me.</p>
   <br/>
 
 
@@ -1188,11 +1201,12 @@ I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/image
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I" ;F;
 I"
-;F;@gI"/projects/ridezap/;T{;{	;I"`<!DOCTYPE HTML>
+;F;@gI"/projects/ridezap/;T{;{	;I"h<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1200,6 +1214,7 @@ I"
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -1247,11 +1262,12 @@ I"
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I" ;F;
 I"
-;F;@mI"/projects/lug/;T{;{	;I"ì<!DOCTYPE HTML>
+;F;@mI"/projects/lug/;T{;{	;I"õ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1259,6 +1275,7 @@ I"
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -1306,11 +1323,12 @@ I"
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I" ;F;
 I"
-;F;@sI"/projects/dmca/;T{;{	;I"ß<!DOCTYPE HTML>
+;F;@sI"/projects/dmca/;T{;{	;I"Ø<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1318,6 +1336,7 @@ I"
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -1362,11 +1381,12 @@ I"
     })();
 
   </script>
+  
   </body>
 </html>
 ;T;	I" ;F;
 I"
-;F;@yI" /playground/facebook_music/;T{;{	;I"3<!DOCTYPE HTML>
+;F;@yI" /playground/facebook_music/;T{;{	;I"Y<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1374,6 +1394,9 @@ I"
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/smoothness/jquery-ui.css" type="text/css" rel="Stylesheet" />
+
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
@@ -1382,47 +1405,17 @@ I"
         <h2>Facebook Playlister</h2>
 
       
-      <div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '226163574111342', // App ID
-      channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
-      status     : true, // check login status
-      cookie     : true, // enable cookies to allow the server to access the session
-      oauth      : true, // enable OAuth 2.0
-      xfbml      : true  // parse XFBML
+      <div id="fb-root">
+  <div id="info-bar"></div>
+  <div id="ytapiplayer">
+  </div>
+  <div id="friends_input">
+    <input id="friends_autocomplete"/>
+  </div>
+</div>
 
-    });
 
-    // Additional initialization code here
-    FB.login(function(response) {
-      if (response.authResponse) {
-        console.log('Welcome!  Fetching your information.... ');
-        FB.api('/me', function(response) {
-          console.log('Good to see you, ' + response.name + '.');
-          FB.logout(function(response) {
-            console.log('Logged out.');
-          });
-        });
-      } else {
-        console.log('User cancelled login or did not fully authorize.');
-      }
-    }, {scope: 'email'});
 
-    FB.api('/me', function(response) {
-      alert(response.name);
-    });
-  };
-
-  // Load the SDK Asynchronously
-  (function(d){
-     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/en_US/all.js";
-     d.getElementsByTagName('head')[0].appendChild(js);
-   }(document));
-</script>
     </div>
     <div id="sidebar">
       <h2 id="logo"><a href="/">David Petersen</a></h2>
@@ -1448,11 +1441,162 @@ I"
     })();
 
   </script>
+  
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script type="text/javascript">
+  var friends, friends_list, feed, youtube_list, ytplayer;
+
+  function onYouTubePlayerReady(playerId) {
+    ytplayer = document.getElementById("myytplayer");
+    ytplayer.loadPlaylist(youtube_list);
+  }
+  function playlist_magic(){
+    if(ytplayer){
+      ytplayer.loadPlaylist(youtube_list);
+    }
+    else{
+      var params = { allowScriptAccess: "always" };
+      var atts = { id: "myytplayer" };
+      swfobject.embedSWF("http://www.youtube.com/v/jy1dByhbLqM?version=3&enablejsapi=1&playerapiid=player1",
+                "ytapiplayer", "480", "295", "9", null, null, params, atts);
+    }
+  }
+
+  function get_videos(userid){
+    FB.api(
+        {
+          method: 'fql.query',
+          query: 'SELECT url FROM link WHERE owner = ' + userid
+        },
+        function(response){
+          var link;
+          feed = response;
+          youtube_list = [];
+          for (index in feed){
+            link = feed[index].url;
+            if (link) {
+              if(link.search('youtube') === 11){
+                youtube_list.push(link.slice(31,42))
+              }
+              if(link.search('youtube') === 13){
+                youtube_list.push(link.slice(42,53))
+              }
+            }
+          }
+          playlist_magic();
+        });
+    }
+
+    FB.init({
+      appId      : '226163574111342', // App ID
+      channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      oauth      : true, // enable OAuth 2.0
+      xfbml      : true  // parse XFBML
+
+    });
+
+    // Additional initialization code here
+    FB.login(function(response) {
+      if (response.authResponse) {
+        console.log('Welcome!  Fetching your information.... ');
+        FB.api('/me', function(response) {
+          console.log('Good to see you, ' + response.name + '.');
+          $("#info-bar").append(response.name + ' signed in correctly');
+        });
+
+        FB.api('/me/friends', function(response) {
+          friends=response;
+          friends_list = [];
+          for (index in friends.data){
+            friends_list.push(friends.data[index].name)
+          }
+
+          $("#friends_autocomplete").autocomplete({
+            source: friends_list,
+            select: function( event, ui ){
+              var friend_id;
+              friend_id = friends.data[friends_list.indexOf( ui.item.value)].id;
+              get_videos(friend_id);
+            }
+          });
+
+        });
+
+
+      } else {
+        console.log('User cancelled login or did not fully authorize.');
+      }
+    }, {scope: 'email read_stream'});
+</script>
+
   </body>
 </html>
-;T;	I"G<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
+;T;	I"π<div id="fb-root">
+  <div id="info-bar"></div>
+  <div id="ytapiplayer">
+  </div>
+  <div id="friends_input">
+    <input id="friends_autocomplete"/>
+  </div>
+</div>
+<% content_for :stylesheets do %>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/smoothness/jquery-ui.css" type="text/css" rel="Stylesheet" />
+<% end %>
+
+<% content_for :javascripts do %>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script type="text/javascript">
+  var friends, friends_list, feed, youtube_list, ytplayer;
+
+  function onYouTubePlayerReady(playerId) {
+    ytplayer = document.getElementById("myytplayer");
+    ytplayer.loadPlaylist(youtube_list);
+  }
+  function playlist_magic(){
+    if(ytplayer){
+      ytplayer.loadPlaylist(youtube_list);
+    }
+    else{
+      var params = { allowScriptAccess: "always" };
+      var atts = { id: "myytplayer" };
+      swfobject.embedSWF("http://www.youtube.com/v/jy1dByhbLqM?version=3&enablejsapi=1&playerapiid=player1",
+                "ytapiplayer", "480", "295", "9", null, null, params, atts);
+    }
+  }
+
+  function get_videos(userid){
+    FB.api(
+        {
+          method: 'fql.query',
+          query: 'SELECT url FROM link WHERE owner = ' + userid
+        },
+        function(response){
+          var link;
+          feed = response;
+          youtube_list = [];
+          for (index in feed){
+            link = feed[index].url;
+            if (link) {
+              if(link.search('youtube') === 11){
+                youtube_list.push(link.slice(31,42))
+              }
+              if(link.search('youtube') === 13){
+                youtube_list.push(link.slice(42,53))
+              }
+            }
+          }
+          playlist_magic();
+        });
+    }
+
     FB.init({
       appId      : '226163574111342', // App ID
       channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
@@ -1469,66 +1613,42 @@ I"
         console.log('Welcome!  Fetching your information.... ');
         FB.api('/me', function(response) {
           console.log('Good to see you, ' + response.name + '.');
-          FB.logout(function(response) {
-            console.log('Logged out.');
-          });
+          $("#info-bar").append(response.name + ' signed in correctly');
         });
+
+        FB.api('/me/friends', function(response) {
+          friends=response;
+          friends_list = [];
+          for (index in friends.data){
+            friends_list.push(friends.data[index].name)
+          }
+
+          $("#friends_autocomplete").autocomplete({
+            source: friends_list,
+            select: function( event, ui ){
+              var friend_id;
+              friend_id = friends.data[friends_list.indexOf( ui.item.value)].id;
+              get_videos(friend_id);
+            }
+          });
+
+        });
+
+
       } else {
         console.log('User cancelled login or did not fully authorize.');
       }
-    }, {scope: 'email'});
+    }, {scope: 'email read_stream'});
+</script>
+<% end %>;T;
+I"•<div id="fb-root">
+  <div id="info-bar"></div>
+  <div id="ytapiplayer">
+  </div>
+  <div id="friends_input">
+    <input id="friends_autocomplete"/>
+  </div>
+</div>
 
-    FB.api('/me', function(response) {
-      alert(response.name);
-    });
-  };
 
-  // Load the SDK Asynchronously
-  (function(d){
-     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/en_US/all.js";
-     d.getElementsByTagName('head')[0].appendChild(js);
-   }(document));
-</script>;T;
-I"G<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '226163574111342', // App ID
-      channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
-      status     : true, // check login status
-      cookie     : true, // enable cookies to allow the server to access the session
-      oauth      : true, // enable OAuth 2.0
-      xfbml      : true  // parse XFBML
-
-    });
-
-    // Additional initialization code here
-    FB.login(function(response) {
-      if (response.authResponse) {
-        console.log('Welcome!  Fetching your information.... ');
-        FB.api('/me', function(response) {
-          console.log('Good to see you, ' + response.name + '.');
-          FB.logout(function(response) {
-            console.log('Logged out.');
-          });
-        });
-      } else {
-        console.log('User cancelled login or did not fully authorize.');
-      }
-    }, {scope: 'email'});
-
-    FB.api('/me', function(response) {
-      alert(response.name);
-    });
-  };
-
-  // Load the SDK Asynchronously
-  (function(d){
-     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/en_US/all.js";
-     d.getElementsByTagName('head')[0].appendChild(js);
-   }(document));
-</script>;T;@:versioni
+;T;@:versioni

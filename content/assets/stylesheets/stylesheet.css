@@ -48,8 +48,8 @@ a:hover {
 
 #main p {
   margin: 20px 0;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 1.6em;
 }
 
 #main ul, #main ol {
