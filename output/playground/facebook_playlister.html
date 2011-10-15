@@ -18,9 +18,9 @@
 
       
       <div id="fb-root">
-  <div id="info-bar"></div>
   <div id="ytapiplayer">
   </div>
+  <div id="control-panel" style="padding:10px"></div>
   <div id="friends_input">
     <input id="friends_autocomplete"/>
   </div>
@@ -64,6 +64,9 @@
   function onYouTubePlayerReady(playerId) {
     ytplayer = document.getElementById("myytplayer");
     ytplayer.loadPlaylist(youtube_list);
+    $("#control-panel").append(
+        "<a href=\"javascript:void(0)\" onClick=\"ytplayer.previousVideo()\" style=\"padding:10px; font-size:16px; color:black;\">Previous</a><a href=\"javascript:void(0)\" onClick=\"ytplayer.nextVideo()\" style=\"padding:10px; font-size:16px; color:black;\">Next</a><a href=\"javascript:void(0)\" onClick=\"get_videos(" + FB.getUserID() + ")\" style=\"padding:10px; font-size:16px; color:black;\">My Links</a>"
+      );
   }
   function playlist_magic(){
     if(ytplayer){
@@ -118,7 +121,7 @@
         console.log('Welcome!  Fetching your information.... ');
         FB.api('/me', function(response) {
           console.log('Good to see you, ' + response.name + '.');
-          $("#info-bar").append(response.name + ' signed in correctly');
+          $("#fb-root").append(response.name + ' signed in correctly');
         });
 
         FB.api('/me/friends', function(response) {

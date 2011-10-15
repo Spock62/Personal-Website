@@ -1386,7 +1386,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@yI" /playground/facebook_music/;T{;{	;I"Y<!DOCTYPE HTML>
+;F;@yI" /playground/facebook_music/;T{;{	;I"7<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1406,9 +1406,9 @@ I"
 
       
       <div id="fb-root">
-  <div id="info-bar"></div>
   <div id="ytapiplayer">
   </div>
+  <div id="control-panel" style="padding:10px"></div>
   <div id="friends_input">
     <input id="friends_autocomplete"/>
   </div>
@@ -1452,6 +1452,9 @@ I"
   function onYouTubePlayerReady(playerId) {
     ytplayer = document.getElementById("myytplayer");
     ytplayer.loadPlaylist(youtube_list);
+    $("#control-panel").append(
+        "<a href=\"javascript:void(0)\" onClick=\"ytplayer.previousVideo()\" style=\"padding:10px; font-size:16px; color:black;\">Previous</a><a href=\"javascript:void(0)\" onClick=\"ytplayer.nextVideo()\" style=\"padding:10px; font-size:16px; color:black;\">Next</a><a href=\"javascript:void(0)\" onClick=\"get_videos(" + FB.getUserID() + ")\" style=\"padding:10px; font-size:16px; color:black;\">My Links</a>"
+      );
   }
   function playlist_magic(){
     if(ytplayer){
@@ -1506,7 +1509,7 @@ I"
         console.log('Welcome!  Fetching your information.... ');
         FB.api('/me', function(response) {
           console.log('Good to see you, ' + response.name + '.');
-          $("#info-bar").append(response.name + ' signed in correctly');
+          $("#fb-root").append(response.name + ' signed in correctly');
         });
 
         FB.api('/me/friends', function(response) {
@@ -1536,10 +1539,10 @@ I"
 
   </body>
 </html>
-;T;	I"¹<div id="fb-root">
-  <div id="info-bar"></div>
+;T;	I"—<div id="fb-root">
   <div id="ytapiplayer">
   </div>
+  <div id="control-panel" style="padding:10px"></div>
   <div id="friends_input">
     <input id="friends_autocomplete"/>
   </div>
@@ -1559,6 +1562,9 @@ I"
   function onYouTubePlayerReady(playerId) {
     ytplayer = document.getElementById("myytplayer");
     ytplayer.loadPlaylist(youtube_list);
+    $("#control-panel").append(
+        "<a href=\"javascript:void(0)\" onClick=\"ytplayer.previousVideo()\" style=\"padding:10px; font-size:16px; color:black;\">Previous</a><a href=\"javascript:void(0)\" onClick=\"ytplayer.nextVideo()\" style=\"padding:10px; font-size:16px; color:black;\">Next</a><a href=\"javascript:void(0)\" onClick=\"get_videos(" + FB.getUserID() + ")\" style=\"padding:10px; font-size:16px; color:black;\">My Links</a>"
+      );
   }
   function playlist_magic(){
     if(ytplayer){
@@ -1613,7 +1619,7 @@ I"
         console.log('Welcome!  Fetching your information.... ');
         FB.api('/me', function(response) {
           console.log('Good to see you, ' + response.name + '.');
-          $("#info-bar").append(response.name + ' signed in correctly');
+          $("#fb-root").append(response.name + ' signed in correctly');
         });
 
         FB.api('/me/friends', function(response) {
@@ -1641,10 +1647,10 @@ I"
     }, {scope: 'email read_stream'});
 </script>
 <% end %>;T;
-I"¥<div id="fb-root">
-  <div id="info-bar"></div>
+I"¿<div id="fb-root">
   <div id="ytapiplayer">
   </div>
+  <div id="control-panel" style="padding:10px"></div>
   <div id="friends_input">
     <input id="friends_autocomplete"/>
   </div>
