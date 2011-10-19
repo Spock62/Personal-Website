@@ -18,11 +18,16 @@
 
       
       <div id="fb-root">
-  <div id="ytapiplayer">
+  <div style="width:500px; float:left">
+    <div id="owner_comment" style="padding:10px; font-size:20px;"></div>
+    <div id="ytapiplayer">
+    </div>
+    <div id="control-panel" style="padding:10px"></div>
+    <div id="friends_input">
+      <input id="friends_autocomplete"/>
+    </div>
   </div>
-  <div id="control-panel" style="padding:10px"></div>
-  <div id="friends_input">
-    <input id="friends_autocomplete"/>
+  <div id="playlist_titles" style="width:200px; height:400px; overflow:scroll; float:right;">
   </div>
 </div>
 
@@ -59,7 +64,7 @@
 <script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 <script type="text/javascript">
-  var friends, friends_list, feed, youtube_list, ytplayer;
+  var friends, friends_list, feed, youtube_list, ytplayer, playlist_titles, owner_comments;
 
   function onYouTubePlayerReady(playerId) {
     ytplayer = document.getElementById("myytplayer");
@@ -67,7 +72,20 @@
     $("#control-panel").append(
         "<a href=\"javascript:void(0)\" onClick=\"ytplayer.previousVideo()\" style=\"padding:10px; font-size:16px; color:black;\">Previous</a><a href=\"javascript:void(0)\" onClick=\"ytplayer.nextVideo()\" style=\"padding:10px; font-size:16px; color:black;\">Next</a><a href=\"javascript:void(0)\" onClick=\"get_videos(" + FB.getUserID() + ")\" style=\"padding:10px; font-size:16px; color:black;\">My Links</a>"
       );
+    ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
   }
+
+  function onytplayerStateChange(newState) {
+    if (newState == -1){
+      var owner_comment;
+      owner_comment = owner_comments[ytplayer.getPlaylistIndex()];
+      $("#owner_comment").empty();
+      if (owner_comment.length > 0){
+        $("#owner_comment").append("\"" + owner_comment  + "\"")
+      }
+    }
+  }
+
   function playlist_magic(){
     if(ytplayer){
       ytplayer.loadPlaylist(youtube_list);
@@ -78,26 +96,45 @@
       swfobject.embedSWF("http://www.youtube.com/v/jy1dByhbLqM?version=3&enablejsapi=1&playerapiid=player1",
                 "ytapiplayer", "480", "295", "9", null, null, params, atts);
     }
+    $("#playlist_titles").empty();
+    for (index in playlist_titles){
+      var playlist_title;
+      $("#playlist_titles").append("<div style=\"padding-top:3px; padding-bottom:3px; border:1px dotted #eee; text-decoration:none; color:black\"><a href=\"javascript:void(0)\" onClick=\"ytplayer.playVideoAt(" + index + "); ytplayer.playVideoAt(" + index + ")\">" + playlist_titles[index] + "</a></div>");
+    }
   }
 
   function get_videos(userid){
     FB.api(
         {
           method: 'fql.query',
-          query: 'SELECT url FROM link WHERE owner = ' + userid
+          query: 'SELECT title, owner_comment, url FROM link WHERE owner = ' + userid
         },
         function(response){
           var link;
           feed = response;
           youtube_list = [];
+          playlist_titles = [];
+          owner_comments = [];
           for (index in feed){
             link = feed[index].url;
             if (link) {
               if(link.search('youtube') === 11){
                 youtube_list.push(link.slice(31,42))
+                playlist_titles.push(feed[index].title);
+                if (feed[index].owner_comment.search(/\n/) != -1){
+                  owner_comments.push(feed[index].owner_comment.slice(0, feed[index].owner_comment.search(/\n/)));
+                } else {
+                  owner_comments.push(feed[index].owner_comment);
+                }
               }
               if(link.search('youtube') === 13){
                 youtube_list.push(link.slice(42,53))
+                playlist_titles.push(feed[index].title);
+                if (feed[index].owner_comment.search(/\n/) != -1){
+                  owner_comments.push(feed[index].owner_comment.slice(0, feed[index].owner_comment.search(/\n/)));
+                } else {
+                  owner_comments.push(feed[index].owner_comment);
+                }
               }
             }
           }
@@ -121,7 +158,7 @@
         console.log('Welcome!  Fetching your information.... ');
         FB.api('/me', function(response) {
           console.log('Good to see you, ' + response.name + '.');
-          $("#fb-root").append(response.name + ' signed in correctly');
+          $("#friends_input").append("<br/>" + response.name + ' signed in correctly');
         });
 
         FB.api('/me/friends', function(response) {
