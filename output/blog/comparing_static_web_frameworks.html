@@ -13,22 +13,22 @@
     <div id="main">
       
         <h2>Comparing Static Web Frameworks</h2>
-<span>October 13, 2011</span>
+<span>October 24, 2011</span>
 
       
       <p><em>This post is still a draft</em></p>
 
-<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
+<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
 
 <h3>Why static website generator?</h3>
 
-<p>Using a static website generator for everyone is not for everyone. If you are running a web application, or dealing with any sort of dynamic content it probably isn't for you.</p>
+<p>Using a static website generator is not for everyone. If you are running a web application, or dealing with any sort of dynamic content it probably isn't for you.</p>
 
-<p>It is for you if you are running anything where the content is added specifcally by you, or by a group of people. The misconception is in the name. Having a static website generator does not necessarily mean that the website you are building is going to be <em>static</em>.</p>
+<p>It is for you if you are running anything where the content is added specifcally by you, or by a group of people. Most common personal sites or blogs can be run on a static website generator. The misconception is in the name. Having a static website generator does not necessarily mean that the website you are building needs each page to be built by hand. Rather we can create resources and rules and generate static content. Much in the same way a dynamic web framework can.</p>
 
 <h3>The search</h3>
 
-<p>My search for the ideal static website framework* started where it ususally does, <a href="http://www.hnsearch.com/">Hacker News search</a>. After spending a few minutes looking through the <a href="http://www.hnsearch.com/search#request/all&amp;q=static+web+generator&amp;start=0">search results</a> I was able to learn of some different types of static web frameworks as well as find out some of the opinions of the knowledgable community.</p>
+<p>My search for the ideal static website framework started where it ususally does, <a href="http://www.hnsearch.com/">Hacker News search</a>. After spending a few minutes looking through the <a href="http://www.hnsearch.com/search#request/all&amp;q=static+web+generator&amp;start=0">search results</a> I was able to learn of some different types of static web frameworks as well as find out some of the opinions of the knowledgable community.</p>
 
 <p>Eventually my search led to the <a href="http://nanoc.stoneship.org/">nanoc website</a> where the author left a semi-complete links to a <a href="http://nanoc.stoneship.org/docs/1-introduction/#similar-projects">large number</a> of open source static website generators. This really became my home base as I could look at the different options. So now I could look at each static framework one by one.</p>
 
@@ -36,17 +36,23 @@
 
 <p>Now that I have begin to look at some of these frameworks lets dig in to them to see if we can find some differences. I started by looking at Jekyll.</p>
 
-<p><a href="https://github.com/mojombo/jekyll">Jekyll</a> is a popular static web framework written in Ruby by Tom Preston-Warner, the founder of Github.</p>
+<p><a href="https://github.com/mojombo/jekyll">Jekyll</a> is a popular static web framework written in Ruby by Tom Preston-Warner, the founder of Github. Jekyll uses a sensible set of configuration rules to generate static content. It supports layouts and different types of markup to generate into static html. From the github page it lists: RedCloth, Liquid, Classifier, Maruku, and Pygments all as dependencies. This seems to be the most popular static website generator.</p>
 
-<p>I noticed that Jekyll managed documents by including <a href="https://github.com/mojombo/jekyll/wiki/yaml-front-matter">YAML</a> at the front of the file. This helps when adding custom variables to your documents you want to use later. This is the same in Nanoc and it is a feature that is very nice when working out with different standard docs. I ended up including a lot of different data in the YAML part of the file then referencing it the compilation.</p>
+<p>Jekyll works well right out of the box, and does not have a large learning curve to hit the ground running. It is a good system to start with if you are familar and just want to crank something out.</p>
 
-<p>Probably the most mature Python static web page generator is <a href="http://ringce.com/hyde">Hyde</a>. Hyde is uses a some specific tools out of the box: the django templating language, support for sass and scss for your CSS files and support for breadcrumbs/excerpts and pagination.</p>
+<p>The next ruby library I looked at was <a href="http://stasis.me/">Stasis</a>. Stasis features a number of features. It provides layouts and rendering so you can build your web page in blocks. It uses "Controllers" to pre-process code as well as support for self-written helpers in the code. It was nice to see that Stasis supports <a href="http://stasis.me/#more">so many</a> types of markups, thanks to the excellent <a href="https://github.com/rtomayko/tilt">tilt gem</a>.</p>
 
-<p>I also decided to look at <a href="https://github.com/mythmon/wok">Wok</a>, a project that my friend Mike Cooper is working on. He wanted to create an alternative to Hyde another static web page generator in Python.</p>
+<p>The last ruby static website generator I looked at was <a href="http://nanoc.stoneship.org/">Nanoc</a>. Nanoc aims to not have be a framework that you step into and start right off the bat. The goal of this project is to create an excellent foundation for you to shape a static framework how you want. It supports a <a href="http://nanoc.stoneship.org/docs/4-basic-concepts/#filters">large number</a> of markups, called "filters". It makes it easy to write additional filters, so adding support for a different markup is simple. It also supports layouts and rendering if you want to use generic layouts for a blog or a portfolio. It includes helpers that make blogging easier. The site build revolves around its Rules file, which decides how items are routed and filtered before compilation. This allows you to run certain types of items through multiple filters, and change the way that certain items are compiled. For example static assets can be preprocessed by a minimizer and the outputted to a different directory. By default most items are outputted to a directory that is the same as the filename and renamed to index.html. This enables you to have beautiful URLs by default. It also comes with a few extra nice features that help with pre-deployment and deployment. It supports HTML and CSS validating. Also supports deploy configuartion with Rake.</p>
+
+<p>Next I decided to look at some of the python static website generators.</p>
+
+<p>Probably the most mature and popular Python static web page generator is <a href="http://ringce.com/hyde">Hyde</a>. Hyde is uses a some specific tools out of the box: the django templating language, support for sass and scss for your CSS files and support for breadcrumbs/excerpts and pagination. It takes a lot of concepts and configurations directly from Jekyll.</p>
+
+<p>I also decided to look at <a href="https://github.com/mythmon/wok">Wok</a>, a project that my friend <a href="https://github.com/mythmon/">Mike Cooper</a> is working on. He wanted to create an alternative to Hyde, Cyrax, Chisel and  another static web page generator in Python. The main thing missing from these was easy category support which he adds to Wok. Wok uses Jinja2 for templating, YAML for adding attaching data to items. Optionally Wok also supports markdown, docutils and pygments. Other markup support is on the way as well, specifically HAML support.</p>
 
 <h3>Conclusion</h3>
 
-<p>I finally concluded I wanted to use Nanoc because it appears that it is the most extendable option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another oen</p>
+<p>I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another oen</p>
 
     </div>
     <div id="sidebar">
