@@ -1,7 +1,7 @@
 ---
 title: Playground
 ---
-<p>This will be index of different fun projects I am playing with.</p>
 <% playgrounds.each do |playground| %>
     <h3><%= link_to(playground[:title], playground) %></h3>
+    <p><%= playground[:short_description] %></p>
 <% end %>

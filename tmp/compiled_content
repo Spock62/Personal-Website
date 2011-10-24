@@ -245,7 +245,7 @@ I"È<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"å<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"ú<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -262,9 +262,7 @@ I"È<h1>Eat.Sleep.Develop</h1>
       
   <h3><a href="/blog/comparing_static_web_frameworks.html">Comparing Static Web Frameworks</a></h3>
   <span>October 24, 2011</span>
-  <p>This post is still a draft
-
-Recently I decided to upgrade my personal website to a static website since the all the content I ne...</p>
+  <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
 
     </div>
     <div id="sidebar">
@@ -298,12 +296,10 @@ Recently I decided to upgrade my personal website to a static website since the 
   <span><%= art.mtime.strftime("%B %d, %Y") %></span>
   <p><%= strip_html(excerptize(art.compiled_content, :length => 150)) %></p>
 <% end %>;T;
-I"
+I""
   <h3><a href="/blog/comparing_static_web_frameworks.html">Comparing Static Web Frameworks</a></h3>
   <span>October 24, 2011</span>
-  <p>This post is still a draft
-
-Recently I decided to upgrade my personal website to a static website since the all the content I ne...</p>
+  <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
 ;T;@ I"/blog/test/;T{;{	;I"a<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -332,7 +328,7 @@ Test
 ;T;
 I"
 Test
-;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"c<!DOCTYPE HTML>
+;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"j<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -350,9 +346,7 @@ Test
 <span>October 24, 2011</span>
 
       
-      <p><em>This post is still a draft</em></p>
-
-<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
+      <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
 
 <h3>Why static website generator?</h3>
 
@@ -376,7 +370,7 @@ Test
 
 <p>The next ruby library I looked at was <a href="http://stasis.me/">Stasis</a>. Stasis features a number of features. It provides layouts and rendering so you can build your web page in blocks. It uses "Controllers" to pre-process code as well as support for self-written helpers in the code. It was nice to see that Stasis supports <a href="http://stasis.me/#more">so many</a> types of markups, thanks to the excellent <a href="https://github.com/rtomayko/tilt">tilt gem</a>.</p>
 
-<p>The last ruby static website generator I looked at was <a href="http://nanoc.stoneship.org/">Nanoc</a>. Nanoc aims to not have be a framework that you step into and start right off the bat. The goal of this project is to create an excellent foundation for you to shape a static framework how you want. It supports a <a href="http://nanoc.stoneship.org/docs/4-basic-concepts/#filters">large number</a> of markups, called "filters". It makes it easy to write additional filters, so adding support for a different markup is simple. It also supports layouts and rendering if you want to use generic layouts for a blog or a portfolio. It includes helpers that make blogging easier. The site build revolves around its Rules file, which decides how items are routed and filtered before compilation. This allows you to run certain types of items through multiple filters, and change the way that certain items are compiled. For example static assets can be preprocessed by a minimizer and the outputted to a different directory. By default most items are outputted to a directory that is the same as the filename and renamed to index.html. This enables you to have beautiful URLs by default. It also comes with a few extra nice features that help with pre-deployment and deployment. It supports HTML and CSS validating. Also supports deploy configuartion with Rake.</p>
+<p>The last ruby static website generator I looked at was <a href="http://nanoc.stoneship.org/">Nanoc</a>. Nanoc aims to not have be a framework that you step into and start right off the bat. The goal of this project is to create an excellent foundation for you to shape a static framework how you want. It supports a <a href="http://nanoc.stoneship.org/docs/4-basic-concepts/#filters">large number</a> of markups, called "filters". It makes it easy to write additional filters, so adding support for a different markup is simple. You can even write custom filters for binary data. It also supports layouts and rendering if you want to use generic layouts for a blog or a portfolio. It includes helpers that make blogging easier. The site build revolves around its Rules file, which decides how items are routed and filtered before compilation. This allows you to run certain types of items through multiple filters, and change the way that certain items are compiled. For example static assets can be preprocessed by a minimizer and the outputted to a different directory. By default most items are outputted to a directory that is the same as the filename and renamed to index.html. This enables you to have beautiful URLs by default. It also comes with a few extra nice features that help with pre-deployment and deployment. It supports HTML and CSS validating. Also supports deploy configuartion with Rake.</p>
 
 <p>Next I decided to look at some of the python static website generators.</p>
 
@@ -415,9 +409,7 @@ Test
   
   </body>
 </html>
-;T;	I"F*This post is still a draft*
-
-Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.
+;T;	I"[Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.
 
 ###Why static website generator?
 Using a static website generator is not for everyone. If you are running a web application, or dealing with any sort of dynamic content it probably isn't for you.
@@ -440,7 +432,7 @@ Jekyll works well right out of the box, and does not have a large learning curve
 
 The next ruby library I looked at was <%= link_to("Stasis", "http://stasis.me/") %>. Stasis features a number of features. It provides layouts and rendering so you can build your web page in blocks. It uses "Controllers" to pre-process code as well as support for self-written helpers in the code. It was nice to see that Stasis supports <%= link_to("so many", "http://stasis.me/#more") %> types of markups, thanks to the excellent <%= link_to("tilt gem", "https://github.com/rtomayko/tilt") %>.
 
-The last ruby static website generator I looked at was <%= link_to("Nanoc", "http://nanoc.stoneship.org/") %>. Nanoc aims to not have be a framework that you step into and start right off the bat. The goal of this project is to create an excellent foundation for you to shape a static framework how you want. It supports a <%= link_to("large number", "http://nanoc.stoneship.org/docs/4-basic-concepts/#filters") %> of markups, called "filters". It makes it easy to write additional filters, so adding support for a different markup is simple. It also supports layouts and rendering if you want to use generic layouts for a blog or a portfolio. It includes helpers that make blogging easier. The site build revolves around its Rules file, which decides how items are routed and filtered before compilation. This allows you to run certain types of items through multiple filters, and change the way that certain items are compiled. For example static assets can be preprocessed by a minimizer and the outputted to a different directory. By default most items are outputted to a directory that is the same as the filename and renamed to index.html. This enables you to have beautiful URLs by default. It also comes with a few extra nice features that help with pre-deployment and deployment. It supports HTML and CSS validating. Also supports deploy configuartion with Rake.
+The last ruby static website generator I looked at was <%= link_to("Nanoc", "http://nanoc.stoneship.org/") %>. Nanoc aims to not have be a framework that you step into and start right off the bat. The goal of this project is to create an excellent foundation for you to shape a static framework how you want. It supports a <%= link_to("large number", "http://nanoc.stoneship.org/docs/4-basic-concepts/#filters") %> of markups, called "filters". It makes it easy to write additional filters, so adding support for a different markup is simple. You can even write custom filters for binary data. It also supports layouts and rendering if you want to use generic layouts for a blog or a portfolio. It includes helpers that make blogging easier. The site build revolves around its Rules file, which decides how items are routed and filtered before compilation. This allows you to run certain types of items through multiple filters, and change the way that certain items are compiled. For example static assets can be preprocessed by a minimizer and the outputted to a different directory. By default most items are outputted to a directory that is the same as the filename and renamed to index.html. This enables you to have beautiful URLs by default. It also comes with a few extra nice features that help with pre-deployment and deployment. It supports HTML and CSS validating. Also supports deploy configuartion with Rake.
 
 Next I decided to look at some of the python static website generators.
 
@@ -451,9 +443,7 @@ I also decided to look at <%= link_to("Wok", "https://github.com/mythmon/wok") %
 ###Conclusion
 
 I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another oen;T;
-I"|<p><em>This post is still a draft</em></p>
-
-<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
+I"É<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
 
 <h3>Why static website generator?</h3>
 
@@ -477,7 +467,7 @@ I"|<p><em>This post is still a draft</em></p>
 
 <p>The next ruby library I looked at was <a href="http://stasis.me/">Stasis</a>. Stasis features a number of features. It provides layouts and rendering so you can build your web page in blocks. It uses "Controllers" to pre-process code as well as support for self-written helpers in the code. It was nice to see that Stasis supports <a href="http://stasis.me/#more">so many</a> types of markups, thanks to the excellent <a href="https://github.com/rtomayko/tilt">tilt gem</a>.</p>
 
-<p>The last ruby static website generator I looked at was <a href="http://nanoc.stoneship.org/">Nanoc</a>. Nanoc aims to not have be a framework that you step into and start right off the bat. The goal of this project is to create an excellent foundation for you to shape a static framework how you want. It supports a <a href="http://nanoc.stoneship.org/docs/4-basic-concepts/#filters">large number</a> of markups, called "filters". It makes it easy to write additional filters, so adding support for a different markup is simple. It also supports layouts and rendering if you want to use generic layouts for a blog or a portfolio. It includes helpers that make blogging easier. The site build revolves around its Rules file, which decides how items are routed and filtered before compilation. This allows you to run certain types of items through multiple filters, and change the way that certain items are compiled. For example static assets can be preprocessed by a minimizer and the outputted to a different directory. By default most items are outputted to a directory that is the same as the filename and renamed to index.html. This enables you to have beautiful URLs by default. It also comes with a few extra nice features that help with pre-deployment and deployment. It supports HTML and CSS validating. Also supports deploy configuartion with Rake.</p>
+<p>The last ruby static website generator I looked at was <a href="http://nanoc.stoneship.org/">Nanoc</a>. Nanoc aims to not have be a framework that you step into and start right off the bat. The goal of this project is to create an excellent foundation for you to shape a static framework how you want. It supports a <a href="http://nanoc.stoneship.org/docs/4-basic-concepts/#filters">large number</a> of markups, called "filters". It makes it easy to write additional filters, so adding support for a different markup is simple. You can even write custom filters for binary data. It also supports layouts and rendering if you want to use generic layouts for a blog or a portfolio. It includes helpers that make blogging easier. The site build revolves around its Rules file, which decides how items are routed and filtered before compilation. This allows you to run certain types of items through multiple filters, and change the way that certain items are compiled. For example static assets can be preprocessed by a minimizer and the outputted to a different directory. By default most items are outputted to a directory that is the same as the filename and renamed to index.html. This enables you to have beautiful URLs by default. It also comes with a few extra nice features that help with pre-deployment and deployment. It supports HTML and CSS validating. Also supports deploy configuartion with Rake.</p>
 
 <p>Next I decided to look at some of the python static website generators.</p>
 
@@ -536,7 +526,7 @@ I"π<p>This is a test.</p>
 <pre class="CodeRay"><code class="language-python"><span class="keyword">def</span> <span class="function">test_function</span>()
     do something</code></pre>
 
-;T;@2I"/playground/;T{;{	;I"<!DOCTYPE HTML>
+;T;@2I"/playground/;T{;{	;I"G<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -550,9 +540,9 @@ I"π<p>This is a test.</p>
   <body>
     <div id="main">
       
-      <p>This will be index of different fun projects I am playing with.</p>
-
+      
     <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
+    <p>This is a fun little tool that compiles youtube videos on a specific Facebook friends wall into a playlist.</p>
 
     </div>
     <div id="sidebar">
@@ -581,13 +571,13 @@ I"π<p>This is a test.</p>
   
   </body>
 </html>
-;T;	I"≥<p>This will be index of different fun projects I am playing with.</p>
-<% playgrounds.each do |playground| %>
+;T;	I"ù<% playgrounds.each do |playground| %>
     <h3><%= link_to(playground[:title], playground) %></h3>
+    <p><%= playground[:short_description] %></p>
 <% end %>;T;
-I"ú<p>This will be index of different fun projects I am playing with.</p>
-
+I"Ã
     <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
+    <p>This is a fun little tool that compiles youtube videos on a specific Facebook friends wall into a playlist.</p>
 ;T;@8I"/projects/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
