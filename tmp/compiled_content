@@ -108,7 +108,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"ß<!DOCTYPE HTML>
+I"/;T{;{	;I"œ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -138,9 +138,8 @@ I"/;T{;{	;I"ß<!DOCTYPE HTML>
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -173,7 +172,7 @@ I"'<h2>I create applications on the web.</h2>
 <a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
 <a href="/projects/oregon_state_lug.html"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
-<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"¢<!DOCTYPE HTML>
+<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"_<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -206,9 +205,8 @@ I"'<h2>I create applications on the web.</h2>
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -247,7 +245,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"Ï<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"Œ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -276,9 +274,8 @@ Recently I decided to upgrade my personal website to a static website since the 
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -335,7 +332,7 @@ Test
 ;T;
 I"
 Test
-;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"S<!DOCTYPE HTML>
+;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -393,9 +390,8 @@ Test
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -522,7 +518,7 @@ I"¹<p>This is a test.</p>
 <pre class="CodeRay"><code class="language-python"><span class="keyword">def</span> <span class="function">test_function</span>()
     do something</code></pre>
 
-;T;@2I"/playground/;T{;{	;I"Z<!DOCTYPE HTML>
+;T;@2I"/playground/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -548,9 +544,8 @@ I"¹<p>This is a test.</p>
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -575,7 +570,7 @@ I"¹<p>This is a test.</p>
 I"œ<p>This will be index of different fun projects I am playing with.</p>
 
     <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
-;T;@8I"/projects/;T{;{	;I"Q<!DOCTYPE HTML>
+;T;@8I"/projects/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -648,9 +643,8 @@ I"œ<p>This will be index of different fun projects I am playing with.</p>
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -1117,20 +1111,24 @@ a:hover {
   float: left;
 }
 ;T;	@N;
-@NI"/contact/;T{;{	;I"¶<!DOCTYPE HTML>
+@NI"/contact/;T{;{	;I"(<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>David Petersen - Contact</title>
+    <title>David Petersen - </title>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
     <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
     <meta name="generator" content="nanoc 3.2.2">
   </head>
   <body>
     <div id="main">
       
-      <p>Feel free to email me at dpcontacter@gmail.com</p>
+      <p>I am available to help you on any web work you would like to get done</p>
+<p>Email: <a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></p>
+<p>Phone: 541-203-0228</p>
+
     </div>
     <div id="sidebar">
       <h2 id="logo"><a href="/">David Petersen</a></h2>
@@ -1142,10 +1140,30 @@ a:hover {
         <li><a href="/contact/">Contact</a></li>
       </ul>
     </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
   </body>
 </html>
-;T;	I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;
-I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I"5<!DOCTYPE HTML>
+;T;	I"·<p>I am available to help you on any web work you would like to get done</p>
+<p>Email: <a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></p>
+<p>Phone: 541-203-0228</p>
+;T;
+I"·<p>I am available to help you on any web work you would like to get done</p>
+<p>Email: <a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></p>
+<p>Phone: 541-203-0228</p>
+;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I"ò<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1184,9 +1202,8 @@ I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/image
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -1206,7 +1223,7 @@ I":<p>Feel free to email me at dpcontacter@gmail.com</p>;T;@RI"/assets/image
 </html>
 ;T;	I" ;F;
 I"
-;F;@gI"/projects/ridezap/;T{;{	;I"h<!DOCTYPE HTML>
+;F;@gI"/projects/ridezap/;T{;{	;I"%<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1245,9 +1262,8 @@ I"
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -1267,7 +1283,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@mI"/projects/lug/;T{;{	;I"›<!DOCTYPE HTML>
+;F;@mI"/projects/lug/;T{;{	;I"X<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1306,9 +1322,8 @@ I"
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -1328,7 +1343,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@sI"/projects/dmca/;T{;{	;I"¯<!DOCTYPE HTML>
+;F;@sI"/projects/dmca/;T{;{	;I"l<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1364,9 +1379,8 @@ I"
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
@@ -1386,7 +1400,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@yI" /playground/facebook_music/;T{;{	;I"ƒ<!DOCTYPE HTML>
+;F;@yI" /playground/facebook_music/;T{;{	;I"@<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1429,9 +1443,8 @@ I"
         <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
-      <span><a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></span>
-      <span>541-203-0228</span>
     </div>
   <script type="text/javascript">
 
