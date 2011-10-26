@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>David Petersen - Google Image Langauge Game</title>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
+    <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
+    <meta name="generator" content="nanoc 3.2.2">
+  </head>
+  <body>
+    <div id="main">
+      
+        <h2>Google Image Langauge Game</h2>
+
+      
+      <div id="branding" ></div><br />
+<div id="content" style="min-height:200px">Loading...</div>
+<div id="paging"></div>
+<div style="margin-top:15px;">
+  <input id="game_input" onkeyup="checkInput(this, event)" />
+  <a href="javascript:void(0)" onclick="hint()">Hint</a>
+</div>
+
+
+    </div>
+    <div id="sidebar">
+      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <ul>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/playground/">Playground</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
+<script>
+  var french_nouns = ['l\'ours', 'le castor', 'le chat', 'le chimpanzé', 'le cerf', 'la salle de bain', 'la baignoire', 'le miroir', 'le savon', 'le tuyau', 'la cheminée', 'la pelouse', 'l\'hors-d\'oeuvre', 'l\'avocat', 'le boeuf', 'le petit déjeuner', 'le chou-fleur', 'le céleri', 'le fromage', 'le poulet', 'le dessert', 'le dîner', 'l\'oeuf', 'le poisson', 'les frites', 'le hamburger', 'le hot dog', 'la laitue', 'le déjeuner', 'le lait', 'le porc', 'les pommes de terre', 'la salade', 'le sandwich', 'la soupe', 'le sucre', 'la dinde', 'l\'eau']
+  function random_word(list) {
+    return list[Math.floor(Math.random() * french_nouns.length)];
+  }
+</script>
+<script src="https://www.google.com/jsapi?key=ABQIAAAAKhQKKcZFFihQAaYc9npGYBQdTd7fhse8FyhKpGC7-_42TJn0xhSJSeCSpWTdQCrRBTJzLaD5SQT_yA" type="text/javascript"></script>
+<script language="Javascript" type="text/javascript">
+//<![CDATA[
+
+google.load("search", "1");
+
+var imageSearch;
+var search_word;
+
+function addPaginationLinks() {
+
+  // To paginate search results, use the cursor function.
+  var cursor = imageSearch.cursor;
+  var curPage = cursor.currentPageIndex; // check what page the app is on
+  var pagesDiv = document.createElement('div');
+  for (var i = 0; i < cursor.pages.length; i++) {
+    var page = cursor.pages[i];
+    if (curPage == i) {
+
+    // If we are on the current page, then don't make a link.
+      var label = document.createTextNode(' ' + page.label + ' ');
+      pagesDiv.appendChild(label);
+    } else {
+
+      // Create links to other pages using gotoPage() on the searcher.
+      var link = document.createElement('a');
+      link.href = 'javascript:imageSearch.gotoPage('+i+');';
+      link.innerHTML = page.label;
+      link.style.marginRight = '2px';
+      pagesDiv.appendChild(link);
+    }
+  }
+
+  var pagingDiv = document.getElementById('paging');
+  pagingDiv.innerHTML = '';
+  pagingDiv.appendChild(pagesDiv);
+}
+
+function searchComplete() {
+
+  // Check that we got results
+  if (imageSearch.results && imageSearch.results.length > 0) {
+
+    // Grab our content div, clear it.
+    var contentDiv = document.getElementById('content');
+    contentDiv.innerHTML = '';
+
+    // Loop through our results, printing them to the page.
+    var results = imageSearch.results;
+    for (var i = 0; i < results.length; i++) {
+      // For each result write it's title and image to the screen
+      var result = results[i];
+      var imgContainer = document.createElement('div');
+      imgContainer.style.float = 'left';
+      imgContainer.style.padding = '10px';
+
+      var newImg = document.createElement('img');
+
+      // There is also a result.url property which has the escaped version
+      newImg.src = result.tbUrl;
+      imgContainer.appendChild(newImg);
+
+      // Put our title + image in the content
+      contentDiv.appendChild(imgContainer);
+    }
+
+    // Now add links to additional pages of search results.
+    addPaginationLinks(imageSearch);
+  }
+}
+
+function OnLoad() {
+
+  // Create an Image Search instance.
+  imageSearch = new google.search.ImageSearch();
+
+  // Set searchComplete as the callback function when a search is
+  // complete.  The imageSearch object will have results in it.
+  imageSearch.setSearchCompleteCallback(this, searchComplete, null);
+
+
+  // Find me a beautiful car.
+  search_word = random_word(french_nouns);
+  imageSearch.execute(search_word);
+
+  // Include the required Google branding
+  google.search.Search.getBranding('branding');
+
+}
+google.setOnLoadCallback(OnLoad);
+
+//]]>
+</script>
+<script>
+function newWord(targetField) {
+  search_word = random_word(french_nouns);
+  imageSearch.execute(search_word);
+  targetField.value = "";
+  targetField.style.background = "#FFFFFF";
+}
+
+function hint() {
+  var targetField = document.getElementById('game_input');
+  targetField.value = search_word.slice(0, targetField.value.length+1);
+  targetField.style.background = "#D0FDD0";
+  if (targetField.value.length == search_word.length) {
+    window.setTimeout(newWord, 1000, targetField);
+  }
+}
+
+function checkInput(targetField, keyEvent){
+  var field_value = targetField.value;
+  var compare = search_word.slice(0,field_value.length).localeCompare(field_value);
+  if (compare != 0) {
+    targetField.style.background = "#FF7373";
+  } else {
+    if (search_word.length == field_value.length) {
+      newWord(targetField);
+    } else {
+      if ( field_value.length != 0 ) {
+        targetField.style.background = "#D0FDD0";
+      }
+    }
+  }
+}
+</script>
+
+  </body>
+</html>
