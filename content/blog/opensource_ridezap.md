@@ -3,7 +3,7 @@ title: Open sourcing Ridezap
 kind: article
 ---
 
-Ridezap is getting open sourced! After 3 hard months of work I decided that this project should be public. Why? This is a great project, but it didn't gain any real momentum after I released it. I think there is a serious need for ridesharing in the US, this becoming increasingly evident to me after my trip in Europe and the large amount of ridesharing options there. 
+Ridezap is getting <%= link_to("open sourced", "https://github.com/thedjpetersen/Ridezap_os/") %>! After 3 hard months of work I decided that this project should be public. Why? This is a great project, but it didn't gain any real momentum after I released it. I think there is a serious need for ridesharing in the US, this becoming increasingly evident to me after my trip in Europe and the large amount of ridesharing options there. 
 
 Ridesharing is an important overlooked issue. It makes movement easier for those without a steady transportation. It provides an economic benefit to the driver. Probably most importantly it cuts down on congestion and is beneficial to the environment.
 
