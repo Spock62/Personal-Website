@@ -245,7 +245,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"Z<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -270,7 +270,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
 
   <h3><a href="/blog/open_sourcing_ridezap.html">Open sourcing Ridezap</a></h3>
   <span>November 05, 2011</span>
-  <p>Ridezap is getting open sourced! After 3 hard months of work I decided that this proj...</p>
+  <p>Ridezap is getting open sourced! After 3 hard mo...</p>
 
     </div>
     <div id="sidebar">
@@ -304,7 +304,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
   <span><%= art.mtime.strftime("%B %d, %Y") %></span>
   <p><%= strip_html(excerptize(art.compiled_content, :length => 150)) %></p>
 <% end %>;T;
-I"
+I"à
   <h3><a href="/blog/a_recap_of_my_time_at_startup_school_2011.html">A recap of my time at Startup School 2011</a></h3>
   <span>November 01, 2011</span>
   <p>This year I was fortunate enough to be able to attend Startup School. It was my first opportunity and I ...</p>
@@ -315,7 +315,7 @@ I"
 
   <h3><a href="/blog/open_sourcing_ridezap.html">Open sourcing Ridezap</a></h3>
   <span>November 05, 2011</span>
-  <p>Ridezap is getting open sourced! After 3 hard months of work I decided that this proj...</p>
+  <p>Ridezap is getting open sourced! After 3 hard mo...</p>
 ;T;@ I"/blog/test/;T{;{	;I"a<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -2365,7 +2365,7 @@ I"ã'<p>This year I was fortunate enough to be able to attend <a href="http://st
 <h2>Conclusion</h2>
 
 <p>It was a great experience to attend startup school. i very much getting to meet many different types of people. I feel that Paul Graham's point sticks with me the most though. You should not just start a company just for the sake of starting a company. Having an idea and vision is important, things should not be the secondary concern. Thanks to the whole Y-Combinator crew for putting this on and happy hacking!</p>
-;T;@†I"/blog/opensource_ridezap/;T{;{	;I"—<!DOCTYPE HTML>
+;T;@†I"/blog/opensource_ridezap/;T{;{	;I"¼<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -2383,7 +2383,7 @@ I"ã'<p>This year I was fortunate enough to be able to attend <a href="http://st
 <span>November 05, 2011</span>
 
       
-      <p>Ridezap is getting <a href="https://github.com/thedjpetersen/Ridezap_os/">open sourced</a>! After 3 hard months of work I decided that this project should be public. Why? This is a great project, but it didn't gain any real momentum after I released it. I think there is a serious need for ridesharing in the US, this becoming increasingly evident to me after my trip in Europe and the large amount of ridesharing options there.</p>
+      <p><a href="http://www.ridezap.com">Ridezap</a> is getting <a href="https://github.com/thedjpetersen/Ridezap_os/">open sourced</a>! After 3 hard months of work I decided that this project should be public. Why? This is a great project, but it didn't gain any real momentum after I released it. I think there is a serious need for ridesharing in the US, this becoming increasingly evident to me after my trip in Europe and the large amount of ridesharing options there.</p>
 
 <p>Ridesharing is an important overlooked issue. It makes movement easier for those without a steady transportation. It provides an economic benefit to the driver. Probably most importantly it cuts down on congestion and is beneficial to the environment.</p>
 
@@ -2420,7 +2420,7 @@ I"ã'<p>This year I was fortunate enough to be able to attend <a href="http://st
   
   </body>
 </html>
-;T;	I"·Ridezap is getting <%= link_to("open sourced", "https://github.com/thedjpetersen/Ridezap_os/") %>! After 3 hard months of work I decided that this project should be public. Why? This is a great project, but it didn't gain any real momentum after I released it. I think there is a serious need for ridesharing in the US, this becoming increasingly evident to me after my trip in Europe and the large amount of ridesharing options there. 
+;T;	I"ã<%= link_to("Ridezap", "http://www.ridezap.com") %> is getting <%= link_to("open sourced", "https://github.com/thedjpetersen/Ridezap_os/") %>! After 3 hard months of work I decided that this project should be public. Why? This is a great project, but it didn't gain any real momentum after I released it. I think there is a serious need for ridesharing in the US, this becoming increasingly evident to me after my trip in Europe and the large amount of ridesharing options there. 
 
 Ridesharing is an important overlooked issue. It makes movement easier for those without a steady transportation. It provides an economic benefit to the driver. Probably most importantly it cuts down on congestion and is beneficial to the environment.
 
@@ -2429,7 +2429,7 @@ There are a few ridesharing options in the US most notably <%= link_to("Zimride"
 So if you are excited about ridesharing and would like to do a website, feel free to use this code as a base. If you need a small solution for your organization you could as well. If you just want to contribute to this project that would make me tremendously happy and your contributions will probably get into Ridezap.com which I will continue to run. 
 
 A quick note on what Ridezap was built on. I built the site in Rails, migrated it forward to the 3.1 release. A lot of the frontend interaction is done with jQuery, and certain elements of the site use jQuery UI. The look and feel is largely from twitter's bootstrap framework.;T;
-I"Ã<p>Ridezap is getting <a href="https://github.com/thedjpetersen/Ridezap_os/">open sourced</a>! After 3 hard months of work I decided that this project should be public. Why? This is a great project, but it didn't gain any real momentum after I released it. I think there is a serious need for ridesharing in the US, this becoming increasingly evident to me after my trip in Europe and the large amount of ridesharing options there.</p>
+I"è<p><a href="http://www.ridezap.com">Ridezap</a> is getting <a href="https://github.com/thedjpetersen/Ridezap_os/">open sourced</a>! After 3 hard months of work I decided that this project should be public. Why? This is a great project, but it didn't gain any real momentum after I released it. I think there is a serious need for ridesharing in the US, this becoming increasingly evident to me after my trip in Europe and the large amount of ridesharing options there.</p>
 
 <p>Ridesharing is an important overlooked issue. It makes movement easier for those without a steady transportation. It provides an economic benefit to the driver. Probably most importantly it cuts down on congestion and is beneficial to the environment.</p>
 
