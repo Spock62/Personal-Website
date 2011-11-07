@@ -1,0 +1,50 @@
+---
+kind: presentation
+title: Gentle Caresses for a Wild Web
+short_description: Presentation on scraping the web into useful APIs and tools.
+---
+
+/ Create any number of elements with class slide within the container
+%section{:class => "slide"}
+  / Slide content HTML goes here!
+  %hgroup
+    %div
+      %h1
+        Gentle Caresses for a Wild Web.
+
+%section{:class => "slide"}
+  %img{:src => "http://anithajith.files.wordpress.com/2011/05/rain-wallpaper.jpg", :alt => "Rainy Corvallis"}
+
+%section{:class => "slide"}
+  %h2
+    Background
+  %img{:src => "http://www.georgiacarpet.com/images/area-rugs/Milliken-rugs/milliken-sports-rugs/College/Oregon-State-University-45907.jpg", :alt => "Oregon State" }
+
+%seh1h1hction{:class => "slide"}
+  %h2
+    Current Activities
+  %img{:src => "http://www.shc.edu/theolibrary/graphics/homeless.jpg", :alt => "DJ currently"}
+
+%section{:class => "slide"}
+  %h1
+    Screen Scraping
+
+%section{:class => "slide"}
+  %h1
+    What is a web page?
+
+%section{:class => "slide"}
+  %div{:style => "margin-top: 10%"}
+    - filter :colorize_syntax do
+      %pre
+        %code.langauge-html
+          :plain
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>Hello HTML</title>
+              </head>
+              <body>
+                <p>Hello World!</p>
+              </body>
+            </html>

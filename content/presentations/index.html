@@ -1,0 +1,7 @@
+---
+title: Presentatiosn
+---
+<% presentations.each do |presentation| %>
+    <h3><%= link_to(presentation[:title], presentation) %></h3>
+    <p><%= presentation[:short_description] %></p>
+<% end %>

@@ -17,6 +17,25 @@ compile '/assets/*' do
   # don’t filter or layout
 end
 
+compile '/presentations/*' do
+
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if rep.item.attributes[:filename] == "content/presentations/index.html"
+    filter :erb
+    layout 'default'
+  else
+    if ext == 'haml'
+      filter :haml
+      filter :colorize_syntax
+      layout 'presentation'
+    else
+      filter :colorize_syntax
+      layout 'presentation'
+    end
+  end
+end
+
 compile '*' do
 
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
@@ -35,6 +54,10 @@ end
 
 route '/assets/stylesheets/*' do
   '/assets/stylesheets/' + rep.item.attributes[:filename].split('/').last
+end
+
+route '/assets/javascripts/*' do
+  '/assets/javascripts/' + rep.item.attributes[:filename].split('/').last
 end
 
 route '/blog/*' do
