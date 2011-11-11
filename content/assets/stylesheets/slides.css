@@ -1,0 +1,35 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.slide{
+  width: auto;
+  min-height: 100%;
+}
+
+h1.center{
+  font-size: 3.5em;
+  padding-top: 200px;
+}
+
+h2.center{
+  font-size: 2.5em;
+  padding-top: 150px;
+}
+
+.center {
+  text-align: center;
+  position: relative;
+}
