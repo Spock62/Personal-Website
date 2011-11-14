@@ -15,12 +15,16 @@
         <h2>Google Image Langauge Game</h2>
 
       
-      <div id="branding" ></div><br />
+      <div id="score" style="text-align: right; font-size:24px;">0 points</div>
 <div id="content" style="min-height:200px">Loading...</div>
+<div id="branding" ></div><br />
 <div id="paging"></div>
 <div style="margin-top:15px;">
   <input id="game_input" onkeyup="checkInput(this, event)" />
   <a href="javascript:void(0)" onclick="hint()">Hint</a>
+</div>
+<div>
+  <p>Instructions: To play the language game just start typing in what you see from the pictures(In French).</p>
 </div>
 
 
@@ -51,7 +55,26 @@
   </script>
   
 <script>
+  var points = 0;
+  var multiplier = 1;
   var french_nouns = ['l\'ours', 'le castor', 'le chat', 'le chimpanzé', 'le cerf', 'la salle de bain', 'la baignoire', 'le miroir', 'le savon', 'le tuyau', 'la cheminée', 'la pelouse', 'l\'hors-d\'oeuvre', 'l\'avocat', 'le boeuf', 'le petit déjeuner', 'le chou-fleur', 'le céleri', 'le fromage', 'le poulet', 'le dessert', 'le dîner', 'l\'oeuf', 'le poisson', 'les frites', 'le hamburger', 'le hot dog', 'la laitue', 'le déjeuner', 'le lait', 'le porc', 'les pommes de terre', 'la salade', 'le sandwich', 'la soupe', 'le sucre', 'la dinde', 'l\'eau']
+
+  function add_points(new_points) {
+    points = points+(new_points*multiplier);
+    document.getElementById("score").innerHTML = points + " points";
+    document.getElementById("score").style.color = "green";
+    if (multiplier<6){
+      multiplier = multiplier+1;
+    }
+  }
+
+  function sub_points(new_points) {
+    points = points-new_points;
+    document.getElementById("score").innerHTML = points + " points"
+    document.getElementById("score").style.color = "red";
+    multiplier = 1;
+  }
+
   function random_word(list) {
     return list[Math.floor(Math.random() * french_nouns.length)];
   }
@@ -163,6 +186,9 @@ function hint() {
   targetField.style.background = "#D0FDD0";
   if (targetField.value.length == search_word.length) {
     window.setTimeout(newWord, 1000, targetField);
+    sub_points(15);
+  } else {
+    sub_points(5);
   }
 }
 
@@ -171,9 +197,11 @@ function checkInput(targetField, keyEvent){
   var compare = search_word.slice(0,field_value.length).localeCompare(field_value);
   if (compare != 0) {
     targetField.style.background = "#FF7373";
+    sub_points(5);
   } else {
     if (search_word.length == field_value.length) {
       newWord(targetField);
+      add_points(15);
     } else {
       if ( field_value.length != 0 ) {
         targetField.style.background = "#D0FDD0";
