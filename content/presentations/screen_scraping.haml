@@ -1,6 +1,6 @@
 ---
 kind: presentation
-title: Gentle Caresses on a Wild Web
+title: Be a Dwarf not an Elf
 short_description: Presentation on scraping the web into useful APIs and tools.
 ---
 =content_for :stylesheets do 
@@ -16,12 +16,22 @@ short_description: Presentation on scraping the web into useful APIs and tools.
 %section{:class => "slide", :style=>'background:#556270', :id => "slide1"}
   .container
     %h1.center{:style => "color:#EAF6F8"}
-      Gentle Caresses on a Wild Web
+      Be a Dwarf not an Elf
+    %h2{:style => "color:#EAF6F8; text-align:center"}
+      email: davjpetersen@github.com
+      %br
+      irc: thedjpetersen
 
-%section{:class => "slide", :id => "slide2"}
+%section{:class => "slide", :style => "background: #CCCCCC", :id => "slide2"}
+  %img{:src => "http://images.wikia.com/lotr/images/4/43/Gimli.jpg", :alt => "Dwarf", :style => "height: 100%; padding-left:250px"}
+
+%section{:class => "slide", :style => "background: #446699", :id => "slide3"}
+  %img{:src => "http://images.cheezburger.com/completestore/2009/11/20/129032519752041524.jpg", :alt => "Elf", :style => "height: 100%; padding-left:250px"}
+
+%section{:class => "slide", :id => "slide4"}
   %img{:src => "http://anithajith.files.wordpress.com/2011/05/rain-wallpaper.jpg", :alt => "Rainy Corvallis", :style => "height: 100%; width: 100%"}
 
-%section{:class => "slide", :style => "background: #D85A1A", :id => "slide3"}
+%section{:class => "slide", :style => "background: #D85A1A", :id => "slide5"}
   .container{:style => "padding-top:30px"}
     .span-8
       %h2.center
@@ -29,23 +39,23 @@ short_description: Presentation on scraping the web into useful APIs and tools.
     .span-16.last
       %img{:src => "http://www.georgiacarpet.com/images/area-rugs/Milliken-rugs/milliken-sports-rugs/College/Oregon-State-University-45907.jpg", :alt => "Oregon State" }
 
-%section{:class => "slide", :id => "slide4"}
+%section{:class => "slide", :id => "slide6"}
   .container
     %h2
       Current Activities
     %img{:src => "http://www.shc.edu/theolibrary/graphics/homeless.jpg", :alt => "DJ currently", :style => "padding-left:225px"}
 
-%section{:class => "slide", :style => "background: #4ECDC4", :id => "slide5"}
+%section{:class => "slide", :style => "background: #4ECDC4", :id => "slide7"}
   .container
     %h1.center{:style => "color: #3B4045"}
       Screen Scraping
 
-%section{:class => "slide", :id => "slide6"}
+%section{:class => "slide", :id => "slide8"}
   .container
     %h1.center
       What is a web page?
 
-%section{:class => "slide", :id => "slide7"}
+%section{:class => "slide", :id => "slide9"}
   .container
     %div{:style => "padding-top: 10%; padding-left:30%"}
       - filter :colorize_syntax do
@@ -62,17 +72,17 @@ short_description: Presentation on scraping the web into useful APIs and tools.
                 </body>
               </html>
 
-%section{:class => "slide", :style => "background: white", :id => "slide8"}
+%section{:class => "slide", :style => "background: white", :id => "slide10"}
   .container
     %p
       Hello World!
 
-%section{:class => "slide", :id => "slide9"}
+%section{:class => "slide", :id => "slide11"}
   .container
     %h1.center
       Slightly more complicated example
 
-%section{:class => "slide", :id => "slide10"}
+%section{:class => "slide", :id => "slide12"}
   .container
     - filter :colorize_syntax do
       %pre{:style => "1140px"}
@@ -80,30 +90,30 @@ short_description: Presentation on scraping the web into useful APIs and tools.
           :escaped
             <li class="pvm uiUnifiedStory uiStreamStory genericStreamStory uiStreamBoulderStyle uiStreamAllowTopBorder uiStreamBoulderHighlight aid_648745396 uiStreamFirstStory uiListItem uiListLight uiListVerticalItemBorder" data-ft="{&quot;src&quot;:10,&quot;sty&quot;:263,&quot;actrs&quot;:&quot;648745396&quot;,&quot;pub_time&quot;:1320889247,&quot;fbid&quot;:&quot;285656391465543&quot;,&quot;qid&quot;:&quot;5673199263687846388&quot;,&quot;s_obj&quot;:5,&quot;s_edge&quot;:1,&quot;s_prnt&quot;:28,&quot;ft_prefix&quot;:&quot;feed_story.top_news&quot;,&quot;ft_story_name&quot;:&quot;StreamStoryCreateGeneric_ShareStreamContent_External_Other&quot;,&quot;mf_story_key&quot;:&quot;10150383890794928&quot;,&quot;object_id&quot;:&quot;285656391465543&quot;,&quot;mf_objid&quot;:&quot;285656391465543&quot;,&quot;viewstate_id&quot;:&quot;1147480206889063866&quot;,&quot;sub_level&quot;:&quot;mid&quot;,&quot;sbj_type&quot;:&quot;self&quot;,&quot;is_boulder&quot;:&quot;1&quot;,&quot;is_hl&quot;:1,&quot;filter&quot;:&quot;h&quot;,&quot;pos&quot;:2}" id="stream_story_4ebb40acc62b60b94075028"><div class="storyContent"><div class="UIImageBlock clearfix"><a class="actorPhoto UIImageBlock_Image UIImageBlock_MED_Image" tabindex="-1" href="https://www.facebook.com/thedjpetersen" data-ft="{&quot;type&quot;:60}" aria-hidden="true" data-hovercard="/ajax/hovercard/hovercard.php?id=648745396"><img class="uiProfilePhoto profilePic uiProfilePhotoLarge img" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/260984_648745396_958874750_q.jpg" alt=""></a><div class="storyInnerContent UIImageBlock_Content UIImageBlock_MED_Content"><div class="mainWrapper"><div class="uiSelector inlineBlock mlm audienceSelector uiStreamHide audienceSelectorNoTruncate dynamicIconSelector uiSelectorRight uiSelectorNormal uiSelectorDynamicTooltip" id="u6k8j6_37"><div class="wrap"><a class="uiTooltip uiSelectorButton uiButton uiButtonSuppressed uiButtonNoText" onmouseout="this.blur();" role="button" ajaxify="/ajax/feed/feed_menu_personal.php?ministory_key=23757286807416762&amp;profile_fbid=648745396&amp;story_type=263&amp;story_id=stream_story_4ebb40acc62b60b94075028&amp;story_fbids%5B0%5D=648745396%3A285656391465543&amp;remove=1&amp;is_spam_filter=0&amp;context_menu%5Bremove_content%5D=1&amp;reportable=0&amp;actor_id=648745396&amp;object_name&amp;app_id=0" href="#" aria-haspopup="1" onmouseover="window.Selector &amp;&amp; onloadRegister(Selector.loadMenu.curry($('u6k8j6_37')));" data-length="30" data-tooltip="Public" rel="toggle"><i class="mrs defaultIcon customimg img sp_52m1y3 sx_c92c58"></i><span class="uiButtonText"></span><span class="uiTooltipWrap top right righttop"><span class="uiTooltipText uiTooltipNoWrap">Public</span></span></a></div></div><h6 class="uiStreamMessage" data-ft="{&quot;type&quot;:1}"><div class="actorDescription actorName" data-ft="{&quot;type&quot;:2}"><a href="https://www.facebook.com/thedjpetersen" data-hovercard="/ajax/hovercard/user.php?id=648745396">David Petersen</a></div> <span class="messageBody" data-ft="{&quot;type&quot;:3}">Thats awesome!</span></h6><div class="mvm plm uiStreamAttachments clearfix fbMainStreamAttachment uiAttachmentNoMedia" data-ft="{&quot;type&quot;:10}"><div><div class="fsm fwn fcg"><div class="uiAttachmentTitle" data-ft="{&quot;type&quot;:11}"><strong><a href="http://www.youtube.com/watch?v=f_dTdRxFpkc" target="_blank" rel="nofollow" onmousedown="UntrustedLink.bootstrap($(this), &quot;sAQHXLJ4RAQErYWIk37nu7rx-CowD2ECfHISzA17L_hiNgw&quot;, event, bagof(null));"><span>http://www.youtube.com/watch?v</span><wbr><span class="word_break"></span>=f_dTdRxFpkc</a></strong> </div><span class="caption"><a href="http://www.youtube.com" target="_blank" rel="nofollow nofollow" onmousedown="UntrustedLink.bootstrap($(this), &quot;6AQEn3ICJAQGn-0PBsgh5RCjgkNK-fL9gmOjCZnPW1vrYKQ&quot;, event, bagof({}));">www.youtube.com</a></span><div class="mts uiAttachmentDesc translationEligibleUserAttachmentMessage"></div></div></div></div><form rel="async" class="live_285656391465543_131325686911214 commentable_item autoexpand_mode" method="post" action="/ajax/ufi/modify.php" data-live="{&quot;seq&quot;:3957863}" onsubmit="return Event.__inlineSubmit(this,event)"><input type="hidden" name="charset_test" value="€,´,€,´,水,Д,Є"><input type="hidden" autocomplete="off" name="post_form_id" value="0a54d1eb4f0ee56c3bc7c292802b297a"><input type="hidden" name="fb_dtsg" value="AQAhxvTO" autocomplete="off"><input type="hidden" autocomplete="off" name="feedback_params" value="{&quot;actor&quot;:&quot;648745396&quot;,&quot;target_fbid&quot;:&quot;285656391465543&quot;,&quot;target_profile_id&quot;:&quot;648745396&quot;,&quot;type_id&quot;:&quot;17&quot;,&quot;source&quot;:&quot;1&quot;,&quot;assoc_obj_id&quot;:&quot;&quot;,&quot;source_app_id&quot;:&quot;0&quot;,&quot;extra_story_params&quot;:[],&quot;content_timestamp&quot;:&quot;1320889247&quot;,&quot;check_hash&quot;:&quot;044268d294117aca&quot;}"><div class="UIImageBlock clearfix uiStreamFooter"><i class="UIImageBlock_Image UIImageBlock_ICON_Image img sp_a0bwqr sx_947ee4"></i><div class="UIImageBlock_Content UIImageBlock_ICON_Content"><span><span class="UIActionLinks UIActionLinks_bottom" data-ft="{&quot;type&quot;:&quot;20&quot;}"><button class="like_link stat_elem as_link" title="Like this item" type="submit" name="like" onclick="fc_click(this, false); return true;" data-ft="{&quot;type&quot;:22}"><span class="default_message">Like</span><span class="saving_message">Unlike</span></button> · <label class="uiLinkButton comment_link" title="Leave a comment"><input data-ft="{&quot;type&quot;:24}" type="button" value="Comment" onclick="return fc_click(this);"></label> · <a class="share_action_link" title="Send this to friends or post it on your profile." data-ft="{&quot;type&quot;:25}" href="/ajax/sharer/?s=99&amp;appid=2309869772&amp;p%5B0%5D=648745396&amp;p%5B1%5D=285656391465543" rel="dialog">Share</a> · </span><span class="uiStreamSource" data-ft="{&quot;type&quot;:26}"><a href="/thedjpetersen/posts/285656391465543"><abbr title="Wednesday, November 9, 2011 at 5:40pm" data-date="Wed, 09 Nov 2011 17:40:47 -0800" class="timestamp livetimestamp">about an hour ago</abbr></a></span></span></div></div><ul class="uiList uiUfi focus_target fbUfi" data-ft="{&quot;type&quot;:30}"><li class="ufiNub uiListItem  uiListVerticalItemBorder"><i></i></li><li class="hidden_elem uiUfiLike uiListItem  uiListVerticalItemBorder" data-ft="{&quot;type&quot;:31}"></li><li class="uiUfiComments uiListItem  uiListVerticalItemBorder" data-ft="{&quot;type&quot;:32}"><ul class="commentList"><li class="uiUfiComment comment_3957770 ufiItem ufiItem"><div class="UIImageBlock clearfix uiUfiActorBlock"><a class="actorPic UIImageBlock_Image UIImageBlock_SMALL_Image" data-ft="{&quot;type&quot;:34}" tabindex="-1" href="https://www.facebook.com/thedjpetersen" data-hovercard="/ajax/hovercard/user.php?id=648745396"><img class="uiProfilePhoto uiProfilePhotoMedium img" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/260984_648745396_958874750_q.jpg" alt=""></a><label class="deleteAction stat_elem UIImageBlock_Ext uiCloseButton" for="u6k8j6_41"><input title="Remove" type="submit" name="delete[3957770]" id="u6k8j6_41"></label><div class="commentContent UIImageBlock_Content UIImageBlock_SMALL_Content" data-ft="{&quot;type&quot;:33}"><a class="actorName" data-ft="{&quot;type&quot;:35}" href="https://www.facebook.com/thedjpetersen" data-hovercard="/ajax/hovercard/user.php?id=648745396">David Petersen</a> <span data-jsid="text" class="commentBody">‎<a href="https://www.facebook.com/profile.php?id=205200227" data-hovercard="/ajax/hovercard/user.php?id=205200227">Nanou Lohezic</a> we could become vigalante gardners!</span><div class="commentActions fsm fwn fcg"><abbr title="Wednesday, November 9, 2011 at 5:40pm" data-date="Wed, 09 Nov 2011 17:40:58 -0800" class="timestamp livetimestamp">about an hour ago</abbr> · <span class="comment_like_3957770 fsm fwn fcg" data-ft="{&quot;type&quot;:36}"><button class="stat_elem as_link cmnt_like_link" type="submit" name="like_comment_id[3957770]" value="3957770" title="Like this comment"><span class="default_message">Like</span><span class="saving_message">Unlike</span></button></span></div></div></div></li><li class="uiUfiComment comment_3957863 ufiItem ufiItem"><div class="UIImageBlock clearfix uiUfiActorBlock"><a class="actorPic UIImageBlock_Image UIImageBlock_SMALL_Image" data-ft="{&quot;type&quot;:34}" tabindex="-1" href="https://www.facebook.com/thedjpetersen" data-hovercard="/ajax/hovercard/user.php?id=648745396"><img class="uiProfilePhoto uiProfilePhotoMedium img" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/260984_648745396_958874750_q.jpg" alt=""></a><label class="deleteAction stat_elem UIImageBlock_Ext uiCloseButton" for="u6k8j6_42"><input title="Remove" type="submit" name="delete[3957863]" id="u6k8j6_42"></label><div class="commentContent UIImageBlock_Content UIImageBlock_SMALL_Content" data-ft="{&quot;type&quot;:33}"><a class="actorName" data-ft="{&quot;type&quot;:35}" href="https://www.facebook.com/thedjpetersen" data-hovercard="/ajax/hovercard/user.php?id=648745396">David Petersen</a> <span data-jsid="text" class="commentBody">vigilante*</span><div class="commentActions fsm fwn fcg"><abbr title="Wednesday, November 9, 2011 at 6:07pm" data-date="Wed, 09 Nov 2011 18:07:42 -0800" class="timestamp livetimestamp">about an hour ago</abbr> · <span class="comment_like_3957863 fsm fwn fcg" data-ft="{&quot;type&quot;:36}"><button class="stat_elem as_link cmnt_like_link" type="submit" name="like_comment_id[3957863]" value="3957863" title="Like this comment"><span class="default_message">Like</span><span class="saving_message">Unlike</span></button></span></div></div></div></li></ul></li><li class="uiUfiAddComment clearfix uiUfiSmall ufiItem ufiItem uiListItem  uiListVerticalItemBorder uiUfiAddCommentCollapsed"><div class="UIImageBlock clearfix mentionsAddComment"><img class="uiProfilePhoto actorPic UIImageBlock_Image UIImageBlock_ICON_Image uiProfilePhotoMedium img" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/260984_648745396_958874750_q.jpg" alt=""><div class="commentArea UIImageBlock_Content UIImageBlock_ICON_Content"><div class="commentBox"><div class="uiMentionsInput textBoxContainer" id="u6k8j6_19"><div class="highlighter"><div><span class="highlighterContent"></span></div></div><div class="uiTypeahead mentionsTypeahead" id="u6k8j6_20"><div class="wrap"><input type="hidden" autocomplete="off" class="hiddenInput"><div class="innerWrap"><textarea class="enter_submit DOMControl_placeholder uiTextareaNoResize uiTextareaAutogrow textBox mentionsTextarea textInput" title="Write a comment..." placeholder="Write a comment..." name="add_comment_text" onfocus="return wait_for_load(this, event, function() {if (!this._has_control) {  new TextAreaControl(this).setAutogrow(true);  this._has_control = true; } return wait_for_load(this, event, function() {JSCC.get('j4ebb40ac99ca423259404597').init([&quot;buildBestAvailableNames&quot;,&quot;hoistFriends&quot;]);;JSCC.get('j4ebb40ac99ca423259404595').init({&quot;max&quot;:10}, null);;;});});" autocomplete="off">Write a comment...</textarea></div></div></div><input type="hidden" autocomplete="off" class="mentionsHidden"></div></div><label class="mts commentBtn stat_elem hidden_elem optimistic_submit uiButton uiButtonConfirm" for="u6k8j6_21"><input value="Comment" class="enter_submit_target" name="comment" type="submit" id="u6k8j6_21"></label></div></div></li></ul><input type="hidden" name="link_data" value="{&quot;src&quot;:10,&quot;sty&quot;:263,&quot;actrs&quot;:&quot;648745396&quot;,&quot;pub_time&quot;:1320889247,&quot;fbid&quot;:&quot;285656391465543&quot;,&quot;qid&quot;:&quot;5673199263687846388&quot;,&quot;s_obj&quot;:5,&quot;s_edge&quot;:1,&quot;s_prnt&quot;:28,&quot;ft_prefix&quot;:&quot;feed_story.top_news&quot;,&quot;ft_story_name&quot;:&quot;StreamStoryCreateGeneric_ShareStreamContent_External_Other&quot;,&quot;mf_story_key&quot;:&quot;10150383890794928&quot;,&quot;object_id&quot;:&quot;285656391465543&quot;,&quot;mf_objid&quot;:&quot;285656391465543&quot;,&quot;viewstate_id&quot;:&quot;1147480206889063866&quot;,&quot;sub_level&quot;:&quot;mid&quot;,&quot;sbj_type&quot;:&quot;self&quot;,&quot;is_boulder&quot;:&quot;1&quot;,&quot;is_hl&quot;:1,&quot;filter&quot;:&quot;h&quot;,&quot;pos&quot;:2}"></form></div></div></div></div><a class="uiTooltip highlightIndicator" onmouseout="this.blur();" rel="async-post" ajaxify="/ajax/feed/filter_action?viewstate_id=1147480206889063866&amp;story_id=stream_story_4ebb40acc62b60b94075028&amp;action=unhighlight&amp;source=triangle" href="#"><i class="img sp_52m1y3 sx_ba72ae"></i><span class="uiTooltipWrap top center centertop"><span class="uiTooltipText uiTooltipNoWrap">Top Story</span></span></a></li>
 
-%section{:class => "slide", :style => "background:white", :id => "slide11"}
+%section{:class => "slide", :style => "background:white", :id => "slide13"}
   .container
     %img{:src => "http://www.socialsitehumor.com/wp-content/uploads/2011/05/irrelevent-status-update-640x5501.png", :alt => "Facebook Status", :style => "height: 100%"}
 
-%section{:class => "slide", :style => "background: white;", :id => "slide12"}
+%section{:class => "slide", :style => "background: white;", :id => "slide14"}
   .container
     %h1{:style => "font-size:2em"}
       It's all about nesting
     %img{:src => "http://s5.thisnext.com/media/largest_dimension/4362913C.jpg", :alt => "Nesting dolls"}
 
-%section{:class => "slide", :style => "background: ", :id => "slide13"}
+%section{:class => "slide", :style => "background: ", :id => "slide15"}
   .container
     %img{:src => "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/JKDOM.SVG/500px-JKDOM.SVG.png", :alt => "DOM", :style => "padding-left:250px; padding-top: 30px;"}
 
-%section{:class => "slide", :style => "background: #B9D0A2;", :id => "slide14"}
+%section{:class => "slide", :style => "background: #B9D0A2;", :id => "slide16"}
   .container
     %h1.center{:style => "color: #556270;"}
       The path to Enlightenment
 
-%section{:class => "slide", :style => "background: #white; text-align:center", :id => "slide15"}
+%section{:class => "slide", :style => "background: #white; text-align:center", :id => "slide17"}
   .container
     %img{:src => "http://www.popcornreel.com/kfp11.jpg", :style => "margin-top:100px;padding: 5px; border: 2px solid #ccc"}
 
-%section{:class => "slide", :id => "slide16"}
+%section{:class => "slide", :id => "slide18"}
   .container
     %h2
       XPaths
@@ -121,85 +131,132 @@ short_description: Presentation on scraping the web into useful APIs and tools.
         :escaped
           //div[@id="yfi_headlines"]/div[2]/ul/li/a
 
-%section{:class => "slide", :style => "background: #C44D58;", :id => "slide17"}
+%section{:class => "slide", :style => "background: #C44D58;", :id => "slide19"}
   .container
     %h1.center{:style => "color: white"}
       What is an API?
 
-%section{:class => "slide", :style => "background: #769073;", :id => "slide18"}
+%section{:class => "slide", :style => "background: #769073;", :id => "slide20"}
   .container
     %h1{:style => "font-size:54px; padding-top:100px;"}
       An API is.....
     %h1
       A interface between programs that makes it easier to communicate. For example....
 
-%section{:class => "slide", :style => "background: #3B5998", :id => "slide19"}
+%section{:class => "slide", :style => "background: #3B5998", :id => "slide21"}
   .container
     %h1.center
       %a{:href => "https://developers.facebook.com/docs/reference/api/", :style => "text-decoration:none; color:white", :target => "_blank"}
         Facebook Graph API
 
-%section{:class => "slide", :style => "background: #C15045", :id => "slide20"}
+%section{:class => "slide", :style => "background: #C15045", :id => "slide22"}
   .container
     %h1.center
       %a{:href => "http://code.google.com/apis/youtube/js_api_reference.html", :style => "text-decoration:none; color:white", :target => "_blank"}
         YouTube API
 
-%section{:class => "slide", :style => "background: white", :id => "slide21"}
+%section{:class => "slide", :style => "background: white", :id => "slide23"}
   .container
     %h1.center
       %a{:href => "http://thedjpetersen.github.com/playground/facebook_playlister.html", :style => "text-decoration:none; color: black", :target => "_blank"}
         Gluing YouTube and Facebook together
 
-%section{:class => "slide", :style => "background: #C7F464", :id => "slide22"}
+%section{:class => "slide", :style => "background: #C7F464", :id => "slide24"}
   .container
     %h1.center
       Simply put an API is a conduit for data. You can recieve data from different sources and manipulate it how you want.
 
-%section{:class => "slide", :id => "slide23"}
+%section{:class => "slide", :id => "slide25"}
   .container
     %h1.center
       So how do web pages relate with APIs?
     %h2.center{:style => "padding:0px"}
       (WHAT IS THIS TALK ABOUT!?!?)
 
-%section{:class => "slide", :style => "background:white;", :id => "slide24"}
+%section{:class => "slide", :style => "background:white;", :id => "slide26"}
   .container
     %img{ :src => "http://www.lilesnet.com/romance/images/yellow_guy_crazy_hg_wht.gif", :style => "padding-top:100px; padding-left:250px" }
 
-%section{:class => "slide", :style => "background:white;", :id => "slide25"}
+%section{:class => "slide", :style => "background:white;", :id => "slide27"}
   .container
     %img{ :src => "http://www.best-horse-photos.com/images/Calendar_Wild_Horses.jpg", :style => "padding-top:100px; padding-left:250px" }
 
-%section{:class => "slide", :style => "background: #556270", :id => "slide26"}
+%section{:class => "slide", :style => "background: #556270", :id => "slide28"}
   .container
     %h1.center{:style => "color:white"}
       A web page can serve as a data source for an API.
 
-%section{:class => "slide", :style => "background: #C44D58", :id => "slide27"}
+%section{:class => "slide", :style => "background: #C44D58", :id => "slide29"}
   .container
     %h1.center{:style => "color:white"}
       There are patterns on the web. 
 
-%section{:class => "slide", :style => "background: #83AF9B", :id => "slide28"}
+%section{:class => "slide", :style => "background: #83AF9B", :id => "slide30"}
   .container
     %h1.center{:style => "color:white"}
       Examples. 
 
-%section{:class => "slide", :style => "background: #3B5998;", :id => "slide29"}
+%section{:class => "slide", :style => "background: #3B5998;", :id => "slide31"}
   .container
     %h1.center{:style => "color:white"}
       A real world example
 
-%section{:class => "slide", :id => "slide30"}
+%section{:class => "slide", :id => "slide32"}
   %iframe{ :src => "http://www.youtube.com/embed/odOzMz-fOOw?hd=1", :frameborder => "0", :style => "height: 100%; width: 100%"}
 
-%section{:class => "slide", :style => "background: #4ECDC4;", :id => "slide31"}
+%section{:class => "slide", :style => "background: #4ECDC4;", :id => "slide33"}
   .container
     %h1.center
       Increasing the complexity.
 
-%section{:class => "slide", :id => "slide32"}
+%section{:class => "slide", :id => "slide34"}
   .container
     %h1.center
       Scraping a site with a login.
+
+%section{:class => "slide", :style => "background: white; text-align:center", :id => "slide35"}
+  .container
+    %img{:src => "http://images.wikia.com/muppet/images/f/f4/CookieMonster-Sitting.jpg", :style => "margin-top:100px;"}
+
+%section{:class => "slide", :style => "background: #CFF09E", :id => "slide36"}
+  .container
+    %h1.center
+      %a{:href => "http://en.wikipedia.org/wiki/HTTP_cookie#Setting_a_cookie", :style => "color: #0B486B; text-decoration: none", :target => "_blank"}
+        Cookies.
+
+%section{:class => "slide", :id => "slide37"}
+  .container
+    %h1.center
+      %a{:href => "https://github.com/thedjpetersen/reglib", :style => "text-decoration: none; color:black", :target => "_blank"}
+        Example.
+
+%section{:class => "slide", :style => "background: #79BD9A", :id => "slide38"}
+  .container
+    %h1.center
+      Crawling web page.
+    %h2{:style => "text-align: center"}
+      At times we want to traverse a page.
+    %h3{:style => "text-align: center"}
+      Peeling off layers like onions.
+    %h4{:style => "text-align: center"}
+      Yeh like onions...
+
+%section{:class => "slide", :style => "background: white; text-align:center", :id => "slide39"}
+  .container
+    %img{:src => "http://www.allaboutshrek.com/gallery/full/movie/shrek_and_donkey1.jpg", :style => "margin-top:50px;"}
+
+%section{:class => "slide", :id => "slide41"}
+  .container
+    %h1.center
+      %a{:href => "http://doc.scrapy.org/en/0.12/index.html", :style => "text-decoration: none; color:black", :target => "_blank"}
+        Scrapy.
+
+%section{:class => "slide", :style => "background: #8E4034", :id => "slide42"}
+  .container
+    %h1.center{:style => "color: #5B756F"}
+      Question and Answer.
+
+%section{:class => "slide", :style => "background: #2B222C", :id => "slide43"}
+  .container
+    %h1.center{:style => "color: #A4F7D4"}
+      Fin
