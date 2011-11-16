@@ -2590,7 +2590,7 @@ I"è<p><a href="http://www.ridezap.com">Ridezap</a> is getting <a href="https:/
 I"š
     <h3><a href="/presentations/screen_scraping/">Be a Dwarf not an Elf</a></h3>
     <p>Presentation on scraping the web into useful APIs and tools.</p>
-;T;@’I"$/presentations/screen_scraping/;T{;{	;I"ßP<!DOCTYPE html>
+;T;@’I"$/presentations/screen_scraping/;T{;{	;I"Q<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -2633,9 +2633,11 @@ I"š
       Be a Dwarf not an Elf
     </h1>
     <h2 style="color:#EAF6F8; text-align:center">
-      email: davjpetersen@github.com
+      email: davjpetersen@gmail.com
       <br>
       irc: thedjpetersen
+      <br>
+      website: thedjpetersen.github.com
     </h2>
   </div>
 </section><section class="slide" id="slide2" style="background: #CCCCCC"><img alt="Dwarf" src="http://images.wikia.com/lotr/images/4/43/Gimli.jpg" style="height: 100%; padding-left:250px"></section><section class="slide" id="slide3" style="background: #446699"><img alt="Elf" src="http://images.cheezburger.com/completestore/2009/11/20/129032519752041524.jpg" style="height: 100%; padding-left:250px"></section><section class="slide" id="slide4"><img alt="Rainy Corvallis" src="http://anithajith.files.wordpress.com/2011/05/rain-wallpaper.jpg" style="height: 100%; width: 100%"></section><section class="slide" id="slide5" style="background: #D85A1A"><div class="container" style="padding-top:30px">
@@ -2873,7 +2875,7 @@ I"š
 
 </body>
 </html>
-;T;	I"kX=content_for :stylesheets do 
+;T;	I"œX=content_for :stylesheets do 
   %link{:href => 'http://fonts.googleapis.com/css?family=Droid+Sans', :rel => 'stylesheet', :type => 'text/css'}
   :css
     body{
@@ -2888,9 +2890,11 @@ I"š
     %h1.center{:style => "color:#EAF6F8"}
       Be a Dwarf not an Elf
     %h2{:style => "color:#EAF6F8; text-align:center"}
-      email: davjpetersen@github.com
+      email: davjpetersen@gmail.com
       %br
       irc: thedjpetersen
+      %br
+      website: thedjpetersen.github.com
 
 %section{:class => "slide", :style => "background: #CCCCCC", :id => "slide2"}
   %img{:src => "http://images.wikia.com/lotr/images/4/43/Gimli.jpg", :alt => "Dwarf", :style => "height: 100%; padding-left:250px"}
@@ -3130,7 +3134,7 @@ I"š
   .container
     %h1.center{:style => "color: #A4F7D4"}
       Fin;T;
-I"ÝK<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"><style type="text/css">
+I"L<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"><style type="text/css">
   /*<![CDATA[*/
     body{
         font-family: 'Droid Sans', sans-serif;
@@ -3143,9 +3147,11 @@ I"ÝK<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="styles
       Be a Dwarf not an Elf
     </h1>
     <h2 style="color:#EAF6F8; text-align:center">
-      email: davjpetersen@github.com
+      email: davjpetersen@gmail.com
       <br>
       irc: thedjpetersen
+      <br>
+      website: thedjpetersen.github.com
     </h2>
   </div>
 </section><section class="slide" id="slide2" style="background: #CCCCCC"><img alt="Dwarf" src="http://images.wikia.com/lotr/images/4/43/Gimli.jpg" style="height: 100%; padding-left:250px"></section><section class="slide" id="slide3" style="background: #446699"><img alt="Elf" src="http://images.cheezburger.com/completestore/2009/11/20/129032519752041524.jpg" style="height: 100%; padding-left:250px"></section><section class="slide" id="slide4"><img alt="Rainy Corvallis" src="http://anithajith.files.wordpress.com/2011/05/rain-wallpaper.jpg" style="height: 100%; width: 100%"></section><section class="slide" id="slide5" style="background: #D85A1A"><div class="container" style="padding-top:30px">
