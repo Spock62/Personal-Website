@@ -2590,7 +2590,7 @@ I"è<p><a href="http://www.ridezap.com">Ridezap</a> is getting <a href="https:/
 I"š
     <h3><a href="/presentations/screen_scraping/">Be a Dwarf not an Elf</a></h3>
     <p>Presentation on scraping the web into useful APIs and tools.</p>
-;T;@’I"$/presentations/screen_scraping/;T{;{	;I"áP<!DOCTYPE html>
+;T;@’I"$/presentations/screen_scraping/;T{;{	;I"ßP<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -2853,7 +2853,7 @@ I"š
     </h1>
   </div>
 </section><section class="slide" id="slide42" style="background: #8E4034"><div class="container">
-    <h1 class="center" style="color: #5B756F">
+    <h1 class="center" style="color: white">
       Question and Answer.
     </h1>
   </div>
@@ -2873,7 +2873,7 @@ I"š
 
 </body>
 </html>
-;T;	I"mX=content_for :stylesheets do 
+;T;	I"kX=content_for :stylesheets do 
   %link{:href => 'http://fonts.googleapis.com/css?family=Droid+Sans', :rel => 'stylesheet', :type => 'text/css'}
   :css
     body{
@@ -3123,14 +3123,14 @@ I"š
 
 %section{:class => "slide", :style => "background: #8E4034", :id => "slide42"}
   .container
-    %h1.center{:style => "color: #5B756F"}
+    %h1.center{:style => "color: white"}
       Question and Answer.
 
 %section{:class => "slide", :style => "background: #2B222C", :id => "slide43"}
   .container
     %h1.center{:style => "color: #A4F7D4"}
       Fin;T;
-I"ßK<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"><style type="text/css">
+I"ÝK<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"><style type="text/css">
   /*<![CDATA[*/
     body{
         font-family: 'Droid Sans', sans-serif;
@@ -3363,7 +3363,7 @@ I"ßK<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="styles
     </h1>
   </div>
 </section><section class="slide" id="slide42" style="background: #8E4034"><div class="container">
-    <h1 class="center" style="color: #5B756F">
+    <h1 class="center" style="color: white">
       Question and Answer.
     </h1>
   </div>
