@@ -2,7 +2,7 @@
 title: Blog Home
 ---
 
-<% sorted_articles.each do |art| %>
+<% sorted_articles.sort{|x,y| y.mtime <=> x.mtime}.each do |art| %>
   <h3><%= link_to(art[:title], art) %></h3>
   <span><%= art.mtime.strftime("%B %d, %Y") %></span>
   <p><%= strip_html(excerptize(art.compiled_content, :length => 150)) %></p>
