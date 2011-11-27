@@ -247,7 +247,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"°	<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"g	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -262,7 +262,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
     <div id="main">
       
       
-  <h3><a href="/blog/dreaming_the_november_2011_edition.html">Dreaming the November 2011 edition</a></h3>
+  <h3><a href="/blog/november_dreaming/">Dreaming the November 2011 edition</a></h3>
   <span>November 15, 2011</span>
   <p>I thought I would write down some of the ideas that have been bouncing around my head.
 
@@ -270,15 +270,15 @@ Irc Client
 
 A client that connects to a ...</p>
 
-  <h3><a href="/blog/open_sourcing_ridezap.html">Open sourcing Ridezap</a></h3>
+  <h3><a href="/blog/opensource_ridezap/">Open sourcing Ridezap</a></h3>
   <span>November 05, 2011</span>
   <p>Ridezap is getting open sourced! After 3 hard mo...</p>
 
-  <h3><a href="/blog/a_recap_of_my_time_at_startup_school_2011.html">A recap of my time at Startup School 2011</a></h3>
+  <h3><a href="/blog/startup_school/">A recap of my time at Startup School 2011</a></h3>
   <span>November 01, 2011</span>
   <p>This year I was fortunate enough to be able to attend Startup School. It was my first opportunity and I ...</p>
 
-  <h3><a href="/blog/comparing_static_web_frameworks.html">Comparing Static Web Frameworks</a></h3>
+  <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
   <span>October 24, 2011</span>
   <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
 
@@ -315,8 +315,8 @@ A client that connects to a ...</p>
   <span><%= art.mtime.strftime("%B %d, %Y") %></span>
   <p><%= strip_html(excerptize(art.compiled_content, :length => 150)) %></p>
 <% end %>;T;
-I"ù
-  <h3><a href="/blog/dreaming_the_november_2011_edition.html">Dreaming the November 2011 edition</a></h3>
+I"°
+  <h3><a href="/blog/november_dreaming/">Dreaming the November 2011 edition</a></h3>
   <span>November 15, 2011</span>
   <p>I thought I would write down some of the ideas that have been bouncing around my head.
 
@@ -324,15 +324,15 @@ Irc Client
 
 A client that connects to a ...</p>
 
-  <h3><a href="/blog/open_sourcing_ridezap.html">Open sourcing Ridezap</a></h3>
+  <h3><a href="/blog/opensource_ridezap/">Open sourcing Ridezap</a></h3>
   <span>November 05, 2011</span>
   <p>Ridezap is getting open sourced! After 3 hard mo...</p>
 
-  <h3><a href="/blog/a_recap_of_my_time_at_startup_school_2011.html">A recap of my time at Startup School 2011</a></h3>
+  <h3><a href="/blog/startup_school/">A recap of my time at Startup School 2011</a></h3>
   <span>November 01, 2011</span>
   <p>This year I was fortunate enough to be able to attend Startup School. It was my first opportunity and I ...</p>
 
-  <h3><a href="/blog/comparing_static_web_frameworks.html">Comparing Static Web Frameworks</a></h3>
+  <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
   <span>October 24, 2011</span>
   <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
 ;T;@ I"/blog/test/;T{;{	;I"a<!DOCTYPE HTML>
@@ -562,7 +562,7 @@ I"¹<p>This is a test.</p>
 <pre class="CodeRay"><code class="language-python"><span class="keyword">def</span> <span class="function">test_function</span>()
     do something</code></pre>
 
-;T;@2I"/playground/;T{;{	;I"<<!DOCTYPE HTML>
+;T;@2I"/playground/;T{;{	;I""<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -577,10 +577,10 @@ I"¹<p>This is a test.</p>
     <div id="main">
       
       
-    <h3><a href="/playground/google_image_language_game.html">Google Image Language Game</a></h3>
+    <h3><a href="/playground/language_game/">Google Image Language Game</a></h3>
     <p>A little language game I am working on to play with the Google Image API.</p>
 
-    <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
+    <h3><a href="/playground/facebook_music/">Facebook Playlister</a></h3>
     <p>This is a fun little tool that compiles youtube videos on a specific Facebook friends wall into a playlist.</p>
 
     </div>
@@ -615,13 +615,13 @@ I"¹<p>This is a test.</p>
     <h3><%= link_to(playground[:title], playground) %></h3>
     <p><%= playground[:short_description] %></p>
 <% end %>;T;
-I"„
-    <h3><a href="/playground/google_image_language_game.html">Google Image Language Game</a></h3>
+I"j
+    <h3><a href="/playground/language_game/">Google Image Language Game</a></h3>
     <p>A little language game I am working on to play with the Google Image API.</p>
 
-    <h3><a href="/playground/facebook_playlister.html">Facebook Playlister</a></h3>
+    <h3><a href="/playground/facebook_music/">Facebook Playlister</a></h3>
     <p>This is a fun little tool that compiles youtube videos on a specific Facebook friends wall into a playlist.</p>
-;T;@8I"/projects/;T{;{	;I"K<!DOCTYPE HTML>
+;T;@8I"/projects/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -637,7 +637,7 @@ I"„
       
       
     <div style="height:250px">
-    <h3><a href="/projects/oregon_state_registration_api.html">Oregon State Registration API</a></h3>
+    <h3><a href="/projects/reglib/">Oregon State Registration API</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/classes-thumb.png" />
     </div>
@@ -650,7 +650,7 @@ I"„
   </div>
 
     <div style="height:250px">
-    <h3><a href="/projects/oregon_state_lug.html">Oregon State LUG</a></h3>
+    <h3><a href="/projects/lug/">Oregon State LUG</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/lug-thumb.png" />
     </div>
@@ -663,7 +663,7 @@ I"„
   </div>
 
     <div style="height:250px">
-    <h3><a href="/projects/ridezap.html">RideZap</a></h3>
+    <h3><a href="/projects/ridezap/">RideZap</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/ridezap-thumb.png" />
     </div>
@@ -676,7 +676,7 @@ I"„
   </div>
 
     <div style="height:250px">
-    <h3><a href="/projects/dmca_management.html">DMCA management</a></h3>
+    <h3><a href="/projects/dmca/">DMCA management</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/dmca-thumb.png" />
     </div>
@@ -728,9 +728,9 @@ I"„
     </div>
   </div>
 <% end %>;T;
-I"•
+I"V
     <div style="height:250px">
-    <h3><a href="/projects/oregon_state_registration_api.html">Oregon State Registration API</a></h3>
+    <h3><a href="/projects/reglib/">Oregon State Registration API</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/classes-thumb.png" />
     </div>
@@ -743,7 +743,7 @@ I"•
   </div>
 
     <div style="height:250px">
-    <h3><a href="/projects/oregon_state_lug.html">Oregon State LUG</a></h3>
+    <h3><a href="/projects/lug/">Oregon State LUG</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/lug-thumb.png" />
     </div>
@@ -756,7 +756,7 @@ I"•
   </div>
 
     <div style="height:250px">
-    <h3><a href="/projects/ridezap.html">RideZap</a></h3>
+    <h3><a href="/projects/ridezap/">RideZap</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/ridezap-thumb.png" />
     </div>
@@ -769,7 +769,7 @@ I"•
   </div>
 
     <div style="height:250px">
-    <h3><a href="/projects/dmca_management.html">DMCA management</a></h3>
+    <h3><a href="/projects/dmca/">DMCA management</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/dmca-thumb.png" />
     </div>

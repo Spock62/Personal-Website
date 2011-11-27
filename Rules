@@ -60,6 +60,7 @@ route '/assets/javascripts/*' do
   '/assets/javascripts/' + rep.item.attributes[:filename].split('/').last
 end
 
+=begin
 route '/blog/*' do
   if not rep.item.attributes[:filename] == "content/blog/index.html"
     '/blog/' + rep.item.attributes[:title].gsub(/ /, '_').
@@ -86,6 +87,7 @@ route '/playground/*' do
     '/playground/index.html' 
   end
 end
+=end
 
 route '*' do
   if item.binary?
