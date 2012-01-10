@@ -36,4 +36,4 @@ I also decided to look at <%= link_to("Wok", "https://github.com/mythmon/wok") %
 
 ###Conclusion
 
-I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another oen
+I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another one.

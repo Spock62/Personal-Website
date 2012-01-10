@@ -262,6 +262,10 @@ I"é<h1>Eat.Sleep.Develop</h1>
     <div id="main">
       
       
+  <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
+  <span>January 09, 2012</span>
+  <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
+
   <h3><a href="/blog/november_dreaming/">Dreaming the November 2011 edition</a></h3>
   <span>November 15, 2011</span>
   <p>I thought I would write down some of the ideas that have been bouncing around my head.
@@ -277,10 +281,6 @@ A client that connects to a ...</p>
   <h3><a href="/blog/startup_school/">A recap of my time at Startup School 2011</a></h3>
   <span>November 01, 2011</span>
   <p>This year I was fortunate enough to be able to attend Startup School. It was my first opportunity and I ...</p>
-
-  <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
-  <span>October 24, 2011</span>
-  <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
 
     </div>
     <div id="sidebar">
@@ -316,6 +316,10 @@ A client that connects to a ...</p>
   <p><%= strip_html(excerptize(art.compiled_content, :length => 150)) %></p>
 <% end %>;T;
 I"°
+  <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
+  <span>January 09, 2012</span>
+  <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
+
   <h3><a href="/blog/november_dreaming/">Dreaming the November 2011 edition</a></h3>
   <span>November 15, 2011</span>
   <p>I thought I would write down some of the ideas that have been bouncing around my head.
@@ -331,10 +335,6 @@ A client that connects to a ...</p>
   <h3><a href="/blog/startup_school/">A recap of my time at Startup School 2011</a></h3>
   <span>November 01, 2011</span>
   <p>This year I was fortunate enough to be able to attend Startup School. It was my first opportunity and I ...</p>
-
-  <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
-  <span>October 24, 2011</span>
-  <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
 ;T;@ I"/blog/test/;T{;{	;I"a<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -363,7 +363,7 @@ Test
 ;T;
 I"
 Test
-;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"§<!DOCTYPE HTML>
+;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"¨<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -378,7 +378,7 @@ Test
     <div id="main">
       
         <h2>Comparing Static Web Frameworks</h2>
-<span>October 24, 2011</span>
+<span>January 09, 2012</span>
 
       
       <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
@@ -415,7 +415,7 @@ Test
 
 <h3>Conclusion</h3>
 
-<p>I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another oen</p>
+<p>I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another one.</p>
 
     </div>
     <div id="sidebar">
@@ -445,7 +445,7 @@ Test
   
   </body>
 </html>
-;T;	I"[Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.
+;T;	I"\Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.
 
 ###Why static website generator?
 Using a static website generator is not for everyone. If you are running a web application, or dealing with any sort of dynamic content it probably isn't for you.
@@ -478,8 +478,8 @@ I also decided to look at <%= link_to("Wok", "https://github.com/mythmon/wok") %
 
 ###Conclusion
 
-I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another oen;T;
-I"ƒ<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
+I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another one.;T;
+I"„<p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with javascript. In the process I got to look at some of the different static frameworks out there. I thought I would write a short comparison.</p>
 
 <h3>Why static website generator?</h3>
 
@@ -513,7 +513,7 @@ I"ƒ<p>Recently I decided to upgrade my personal website to a static website si
 
 <h3>Conclusion</h3>
 
-<p>I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another oen</p>
+<p>I finally concluded I wanted to use Nanoc because it appears that it is the most flexible option. In the end though you have to remember that all static web frameworks produce the same thing: HTML. This is not a standard web framework debate where you can argue the merits of one framework being faster or slower than another one.</p>
 ;T;@,I"/blog/testing/;T{;{	;I"{<!DOCTYPE HTML>
 <html lang="en">
   <head>
