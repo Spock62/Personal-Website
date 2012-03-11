@@ -1,4 +1,4 @@
-{:	data{,I"/stylesheet/:ET{:default{:	lastI"	* {
+{:	data{-I"/stylesheet/:ET{:default{:	lastI"	* {
   margin: 0;
   padding: 0;
 
@@ -247,7 +247,8 @@ I"é<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"g	<!DOCTYPE HTML>
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"{
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -262,6 +263,10 @@ I"é<h1>Eat.Sleep.Develop</h1>
     <div id="main">
       
       
+  <h3><a href="/blog/comparing_webchat_options/">Comparing web chat clients</a></h3>
+  <span>February 23, 2012</span>
+  <p>I have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will wil...</p>
+
   <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
   <span>January 09, 2012</span>
   <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
@@ -315,7 +320,11 @@ A client that connects to a ...</p>
   <span><%= art.mtime.strftime("%B %d, %Y") %></span>
   <p><%= strip_html(excerptize(art.compiled_content, :length => 150)) %></p>
 <% end %>;T;
-I"°
+I"Ä
+  <h3><a href="/blog/comparing_webchat_options/">Comparing web chat clients</a></h3>
+  <span>February 23, 2012</span>
+  <p>I have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will wil...</p>
+
   <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
   <span>January 09, 2012</span>
   <p>Recently I decided to upgrade my personal website to a static website since the all the content I needed was static or could be loaded with java...</p>
@@ -577,11 +586,11 @@ I"¹<p>This is a test.</p>
     <div id="main">
       
       
-    <h3><a href="/playground/language_game/">Google Image Language Game</a></h3>
-    <p>A little language game I am working on to play with the Google Image API.</p>
-
     <h3><a href="/playground/facebook_music/">Facebook Playlister</a></h3>
     <p>This is a fun little tool that compiles youtube videos on a specific Facebook friends wall into a playlist.</p>
+
+    <h3><a href="/playground/language_game/">Google Image Language Game</a></h3>
+    <p>A little language game I am working on to play with the Google Image API.</p>
 
     </div>
     <div id="sidebar">
@@ -616,11 +625,11 @@ I"¹<p>This is a test.</p>
     <p><%= playground[:short_description] %></p>
 <% end %>;T;
 I"j
-    <h3><a href="/playground/language_game/">Google Image Language Game</a></h3>
-    <p>A little language game I am working on to play with the Google Image API.</p>
-
     <h3><a href="/playground/facebook_music/">Facebook Playlister</a></h3>
     <p>This is a fun little tool that compiles youtube videos on a specific Facebook friends wall into a playlist.</p>
+
+    <h3><a href="/playground/language_game/">Google Image Language Game</a></h3>
+    <p>A little language game I am working on to play with the Google Image API.</p>
 ;T;@8I"/projects/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -636,19 +645,6 @@ I"j
     <div id="main">
       
       
-    <div style="height:250px">
-    <h3><a href="/projects/reglib/">Oregon State Registration API</a></h3>
-    <div style="float:right; margin-left:30px;">
-      <img class="framed_pic" src="/assets/images/classes-thumb.png" />
-    </div>
-    <div style="margin-top:10px;">
-      
-        URL: <span><a href="https://github.com/thedjpetersen/reglib">https://github.com/thedjpetersen/reglib</a></span>
-      
-      <p>A library that screen scraped the Oregon State Registration frontend in order to create a usable API.</p>
-    </div>
-  </div>
-
     <div style="height:250px">
     <h3><a href="/projects/lug/">Oregon State LUG</a></h3>
     <div style="float:right; margin-left:30px;">
@@ -683,6 +679,19 @@ I"j
     <div style="margin-top:10px;">
       
       <p>A frontend to manage students at Oregon State who reported to have been caught filesharing.</p>
+    </div>
+  </div>
+
+    <div style="height:250px">
+    <h3><a href="/projects/reglib/">Oregon State Registration API</a></h3>
+    <div style="float:right; margin-left:30px;">
+      <img class="framed_pic" src="/assets/images/classes-thumb.png" />
+    </div>
+    <div style="margin-top:10px;">
+      
+        URL: <span><a href="https://github.com/thedjpetersen/reglib">https://github.com/thedjpetersen/reglib</a></span>
+      
+      <p>A library that screen scraped the Oregon State Registration frontend in order to create a usable API.</p>
     </div>
   </div>
 
@@ -730,19 +739,6 @@ I"j
 <% end %>;T;
 I"V
     <div style="height:250px">
-    <h3><a href="/projects/reglib/">Oregon State Registration API</a></h3>
-    <div style="float:right; margin-left:30px;">
-      <img class="framed_pic" src="/assets/images/classes-thumb.png" />
-    </div>
-    <div style="margin-top:10px;">
-      
-        URL: <span><a href="https://github.com/thedjpetersen/reglib">https://github.com/thedjpetersen/reglib</a></span>
-      
-      <p>A library that screen scraped the Oregon State Registration frontend in order to create a usable API.</p>
-    </div>
-  </div>
-
-    <div style="height:250px">
     <h3><a href="/projects/lug/">Oregon State LUG</a></h3>
     <div style="float:right; margin-left:30px;">
       <img class="framed_pic" src="/assets/images/lug-thumb.png" />
@@ -776,6 +772,19 @@ I"V
     <div style="margin-top:10px;">
       
       <p>A frontend to manage students at Oregon State who reported to have been caught filesharing.</p>
+    </div>
+  </div>
+
+    <div style="height:250px">
+    <h3><a href="/projects/reglib/">Oregon State Registration API</a></h3>
+    <div style="float:right; margin-left:30px;">
+      <img class="framed_pic" src="/assets/images/classes-thumb.png" />
+    </div>
+    <div style="margin-top:10px;">
+      
+        URL: <span><a href="https://github.com/thedjpetersen/reglib">https://github.com/thedjpetersen/reglib</a></span>
+      
+      <p>A library that screen scraped the Oregon State Registration frontend in order to create a usable API.</p>
     </div>
   </div>
 ;T;@>I"/coderay/;T{;{	;I"	<!DOCTYPE HTML>
@@ -1043,7 +1052,7 @@ table.CodeRay {
 }
 
 ;T;	@J;
-@JI"$/assets/stylesheets/stylesheet/;T{;{;I"Ÿ* {
+@JI"$/assets/stylesheets/stylesheet/;T{;{;I"µ* {
   margin: 0;
   padding: 0;
 
@@ -1112,12 +1121,12 @@ a:hover {
 
 #sidebar {
   position: fixed;
-
   top: 40px;
   left: 60px;
   width: 200px;
   height: 90%;
   border-right: 1px solid #ccc;
+  background: #F8F8F8;
 }
 
 #sidebar h2 a{
@@ -4757,4 +4766,78 @@ I"(
 <h2>Automation on steroids</h2>
 
 <p> is a cool new service that allows you to create little task automations. Based on the inputs from different services you are able to funnel data and manipulate it. It takes advantage of many web APIs and creates an easy to use interface. What I would like to see is an easier way to do automation and more complex automation. With an interface similar to Yahoo Pipes. You could drag services and "connect" them with pipes. Also being able to use boolean logic to make them look similar to add something similar to "AND" and "OR" gates on boolean logic would be cool.</p>
-;T;@¾:versioni
+;T;@¾"%/blog/comparing_webchat_options/{;{	;I"-<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>David Petersen - Comparing web chat clients</title>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/coderay.css" media="screen">
+    <link href="http://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    
+    <meta name="generator" content="nanoc 3.2.2">
+  </head>
+  <body>
+    <div id="main">
+      
+        <h2>Comparing web chat clients</h2>
+<span>February 23, 2012</span>
+
+      
+      <p>I have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will will split my review between the free and the paid options.</p>
+
+<h2>Alice</h2>
+
+<h2>Holla</h2>
+
+<h2>Candy</h2>
+
+<h2>QWebIRC</h2>
+
+    </div>
+    <div id="sidebar">
+      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <ul>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/playground/">Playground</a></li>
+        <li><a href="/presentations/">Presentations</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26290380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
+  </body>
+</html>
+;T;	I"òI have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will will split my review between the free and the paid options.
+
+## Alice
+
+## Holla
+
+## Candy
+
+## QWebIRC;T;
+I"<p>I have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will will split my review between the free and the paid options.</p>
+
+<h2>Alice</h2>
+
+<h2>Holla</h2>
+
+<h2>Candy</h2>
+
+<h2>QWebIRC</h2>
+;T;@Ä:versioni
