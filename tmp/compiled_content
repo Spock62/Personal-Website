@@ -108,7 +108,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"Ó<!DOCTYPE HTML>
+I"/;T{;{	;I"é<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -129,7 +129,33 @@ I"/;T{;{	;I"Ó<!DOCTYPE HTML>
 <a href="/projects/reglib/"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
 <a href="/projects/lug/"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
-<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>
+<div>
+  <p>Right now my main focus is working for <a href="http://emberex.com/">Emberex</a>.
+  I also spent time building <a href="http://www.ridezap.com">RideZap</a> and <a href="https://github.com/thedjpetersen/subway">Subway</a>.
+</div>
+<div class="half_page pull_left">
+  <h3>Recent Thoughts</h3>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/comparing_webchat_options/">Comparing web chat clients</a></div>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></div>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/november_dreaming/">Dreaming the November 2011 edition</a></div>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/opensource_ridezap/">Open sourcing Ridezap</a></div>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/startup_school/">A recap of my time at Startup School 2011</a></div>
+  
+</div>
+<div class="half_page pull_left">
+  <h3>Where to find me</h3>
+  <div>
+    <a href="http://www.twitter.com/thedjpetersen">Twitter</a>
+  </div>
+  <div>
+    <a href="http://www.github.com/thedjpetersen">GitHub</a>
+  </div>
+</div>
     </div>
     <div id="sidebar">
       <h2 id="logo">
@@ -161,22 +187,66 @@ I"/;T{;{	;I"Ó<!DOCTYPE HTML>
   
   </body>
 </html>
-;T;	I"õ<h2>I create applications on the web.</h2>
+;T;	I"Y<h2>I create applications on the web.</h2>
 
 <a href="/projects/dmca/"><img class="framed_pic" src="/assets/images/dmca-thumb.png"/></a>
 <a href="/projects/ridezap/"><img class="framed_pic" src="/assets/images/ridezap-thumb.png"/></a>
 <a href="/projects/reglib/"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
 <a href="/projects/lug/"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
-<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T;
-I"õ<h2>I create applications on the web.</h2>
+<div>
+  <p>Right now my main focus is working for <a href="http://emberex.com/">Emberex</a>.
+  I also spent time building <a href="http://www.ridezap.com">RideZap</a> and <a href="https://github.com/thedjpetersen/subway">Subway</a>.
+</div>
+<div class="half_page pull_left">
+  <h3>Recent Thoughts</h3>
+  <% sorted_articles.sort{|x,y| y.mtime <=> x.mtime}.each do |art| %>
+    <div style="margin-bottom: 5px"><%= link_to(art[:title], art) %></div>
+  <% end %>
+</div>
+<div class="half_page pull_left">
+  <h3>Where to find me</h3>
+  <div>
+    <a href="http://www.twitter.com/thedjpetersen">Twitter</a>
+  </div>
+  <div>
+    <a href="http://www.github.com/thedjpetersen">GitHub</a>
+  </div>
+</div>;T;
+I"<h2>I create applications on the web.</h2>
 
 <a href="/projects/dmca/"><img class="framed_pic" src="/assets/images/dmca-thumb.png"/></a>
 <a href="/projects/ridezap/"><img class="framed_pic" src="/assets/images/ridezap-thumb.png"/></a>
 <a href="/projects/reglib/"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
 <a href="/projects/lug/"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
-<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"È<!DOCTYPE HTML>
+<div>
+  <p>Right now my main focus is working for <a href="http://emberex.com/">Emberex</a>.
+  I also spent time building <a href="http://www.ridezap.com">RideZap</a> and <a href="https://github.com/thedjpetersen/subway">Subway</a>.
+</div>
+<div class="half_page pull_left">
+  <h3>Recent Thoughts</h3>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/comparing_webchat_options/">Comparing web chat clients</a></div>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></div>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/november_dreaming/">Dreaming the November 2011 edition</a></div>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/opensource_ridezap/">Open sourcing Ridezap</a></div>
+  
+    <div style="margin-bottom: 5px"><a href="/blog/startup_school/">A recap of my time at Startup School 2011</a></div>
+  
+</div>
+<div class="half_page pull_left">
+  <h3>Where to find me</h3>
+  <div>
+    <a href="http://www.twitter.com/thedjpetersen">Twitter</a>
+  </div>
+  <div>
+    <a href="http://www.github.com/thedjpetersen">GitHub</a>
+  </div>
+</div>;T:	post@I"/about/;T{;{	;I"È<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1070,7 +1140,7 @@ table.CodeRay {
 }
 
 ;T;	@J;
-@JI"$/assets/stylesheets/stylesheet/;T{;{;I"* {
+@JI"$/assets/stylesheets/stylesheet/;T{;{;I"** {
   margin: 0;
   padding: 0;
 
@@ -1197,6 +1267,10 @@ a:hover {
   padding:4px;
   background: white;
   margin: 10px 10px 10px 0px;
+}
+
+.half_page{
+  width: 350px;
 }
 
 .pull_left{

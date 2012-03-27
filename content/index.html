@@ -9,4 +9,22 @@ title: Home
 <a href="/projects/reglib/"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
 <a href="/projects/lug/"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
-<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>
+<div>
+  <p>Right now my main focus is working for <a href="http://emberex.com/">Emberex</a>.
+  I also spent time building <a href="http://www.ridezap.com">RideZap</a> and <a href="https://github.com/thedjpetersen/subway">Subway</a>.
+</div>
+<div class="half_page pull_left">
+  <h3>Recent Thoughts</h3>
+  <% sorted_articles.sort{|x,y| y.mtime <=> x.mtime}.each do |art| %>
+    <div style="margin-bottom: 5px"><%= link_to(art[:title], art) %></div>
+  <% end %>
+</div>
+<div class="half_page pull_left">
+  <h3>Where to find me</h3>
+  <div>
+    <a href="http://www.twitter.com/thedjpetersen">Twitter</a>
+  </div>
+  <div>
+    <a href="http://www.github.com/thedjpetersen">GitHub</a>
+  </div>
+</div>

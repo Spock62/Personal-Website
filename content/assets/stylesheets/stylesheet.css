@@ -127,6 +127,10 @@ a:hover {
   margin: 10px 10px 10px 0px;
 }
 
+.half_page{
+  width: 350px;
+}
+
 .pull_left{
   float: left;
 }
