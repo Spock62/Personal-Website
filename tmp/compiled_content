@@ -1,4 +1,4 @@
-{:	data{.I"/stylesheet/:ET{:default{:	lastI"	* {
+{:	data{/I"/stylesheet/:ET{:default{:	lastI"	* {
   margin: 0;
   padding: 0;
 
@@ -253,7 +253,7 @@ I"é<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"§
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"n
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -270,8 +270,8 @@ I"é<h1>Eat.Sleep.Develop</h1>
       
       
   <h3><a href="/blog/comparing_webchat_options/">Comparing web chat clients</a></h3>
-  <span>February 23, 2012</span>
-  <p>I have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will wil...</p>
+  <span>March 26, 2012</span>
+  <p>I have been working the last two month on Subway an IRC web client. During this time I hav...</p>
 
   <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
   <span>January 09, 2012</span>
@@ -329,10 +329,10 @@ A client that connects to a ...</p>
   <span><%= art.mtime.strftime("%B %d, %Y") %></span>
   <p><%= strip_html(excerptize(art.compiled_content, :length => 150)) %></p>
 <% end %>;T;
-I"Ä
+I"‹
   <h3><a href="/blog/comparing_webchat_options/">Comparing web chat clients</a></h3>
-  <span>February 23, 2012</span>
-  <p>I have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will wil...</p>
+  <span>March 26, 2012</span>
+  <p>I have been working the last two month on Subway an IRC web client. During this time I hav...</p>
 
   <h3><a href="/blog/static_web_frameworks/">Comparing Static Web Frameworks</a></h3>
   <span>January 09, 2012</span>
@@ -4830,7 +4830,7 @@ I"(
 <h2>Automation on steroids</h2>
 
 <p> is a cool new service that allows you to create little task automations. Based on the inputs from different services you are able to funnel data and manipulate it. It takes advantage of many web APIs and creates an easy to use interface. What I would like to see is an easier way to do automation and more complex automation. With an interface similar to Yahoo Pipes. You could drag services and "connect" them with pipes. Also being able to use boolean logic to make them look similar to add something similar to "AND" and "OR" gates on boolean logic would be cool.</p>
-;T;@¾"%/blog/comparing_webchat_options/{;{	;I"Y<!DOCTYPE HTML>
+;T;@¾"%/blog/comparing_webchat_options/{;{	;I"•<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -4845,18 +4845,43 @@ I"(
     <div id="main">
       
         <h2>Comparing web chat clients</h2>
-<span>February 23, 2012</span>
+<span>March 26, 2012</span>
 
       
-      <p>I have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will will split my review between the free and the paid options.</p>
+      <p>I have been working the last two month on <a href="https://github.com/thedjpetersen/subway">Subway</a> an IRC web client. During this time I have discovered some of the other options that exist. I thought I would go ahead and share them with you.</p>
 
 <h2>Alice</h2>
 
+<p><img src="http://usealice.org/image/screenshots/new/3.png" style="width: 700px" /></p>
+
+<p><a href="http://www.usealice.org/">Alice</a> is probably the most
+mature option in the bunch. It runs as a server in the backend which
+handles the IRC connections and logs messages so you can see them when
+you log back in. It persists your connection to the server as well.</p>
+
 <h2>Holla</h2>
+
+<p><img
+src="https://lh4.googleusercontent.com/_IH1OempnqUc/TZF1gMnidmI/AAAAAAAABKE/b9rp9RdtA3o/s800/Screen%20shot%202011-03-29%20at%2018.58.12.png" style="width: 700px"/></p>
+
+<p><a href="https://github.com/maccman/holla">Holla</a> is another
+open source application written in Ruby. It serves as both the server
+and the client. The logging is done in Redis, a data store system
+optimized for speed.</p>
 
 <h2>Candy</h2>
 
+<p><img
+src="http://candy-chat.github.com/candy/public/images/screenshot.png" style="width: 700px"/></p>
+
+<p><a href="http://candy-chat.github.com/candy/">Candy</a> is another client server option written in fully in javascript
+built on top of XMPP for communities to chat with each other. I didn't
+see whether or not logging/search was built in.</p>
+
 <h2>QWebIRC</h2>
+
+<p><a href="http://qwebirc.org/">QWebIRC</a> is a online IRC client that has been around for more than 4
+years. It was designed for use in on the quake network.</p>
 
     </div>
     <div id="sidebar">
@@ -4889,22 +4914,72 @@ I"(
   
   </body>
 </html>
-;T;	I"òI have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will will split my review between the free and the paid options.
+;T;	I"#I have been working the last two month on <%= link_to("Subway", "https://github.com/thedjpetersen/subway") %> an IRC web client. During this time I have discovered some of the other options that exist. I thought I would go ahead and share them with you.
 
 ## Alice
 
+<img src="http://usealice.org/image/screenshots/new/3.png" style="width: 700px" />
+
+<%= link_to("Alice", "http://www.usealice.org/") %> is probably the most
+mature option in the bunch. It runs as a server in the backend which
+handles the IRC connections and logs messages so you can see them when
+you log back in. It persists your connection to the server as well.
+
 ## Holla
+
+<img
+src="https://lh4.googleusercontent.com/_IH1OempnqUc/TZF1gMnidmI/AAAAAAAABKE/b9rp9RdtA3o/s800/Screen%20shot%202011-03-29%20at%2018.58.12.png" style="width: 700px"/>
+
+<%= link_to("Holla", "https://github.com/maccman/holla") %> is another
+open source application written in Ruby. It serves as both the server
+and the client. The logging is done in Redis, a data store system
+optimized for speed.
 
 ## Candy
 
-## QWebIRC;T;
-I"<p>I have been working the last two month on an IRC web client. During this time I have discovered some of the other options that exist. I will will split my review between the free and the paid options.</p>
+<img
+src="http://candy-chat.github.com/candy/public/images/screenshot.png" style="width: 700px"/>
+
+<%= link_to("Candy", "http://candy-chat.github.com/candy/") %> is another client server option written in fully in javascript
+built on top of XMPP for communities to chat with each other. I didn't
+see whether or not logging/search was built in.
+
+## QWebIRC
+
+<%= link_to("QWebIRC", "http://qwebirc.org/") %> is a online IRC client that has been around for more than 4
+years. It was designed for use in on the quake network.;T;
+I"Q<p>I have been working the last two month on <a href="https://github.com/thedjpetersen/subway">Subway</a> an IRC web client. During this time I have discovered some of the other options that exist. I thought I would go ahead and share them with you.</p>
 
 <h2>Alice</h2>
 
+<p><img src="http://usealice.org/image/screenshots/new/3.png" style="width: 700px" /></p>
+
+<p><a href="http://www.usealice.org/">Alice</a> is probably the most
+mature option in the bunch. It runs as a server in the backend which
+handles the IRC connections and logs messages so you can see them when
+you log back in. It persists your connection to the server as well.</p>
+
 <h2>Holla</h2>
+
+<p><img
+src="https://lh4.googleusercontent.com/_IH1OempnqUc/TZF1gMnidmI/AAAAAAAABKE/b9rp9RdtA3o/s800/Screen%20shot%202011-03-29%20at%2018.58.12.png" style="width: 700px"/></p>
+
+<p><a href="https://github.com/maccman/holla">Holla</a> is another
+open source application written in Ruby. It serves as both the server
+and the client. The logging is done in Redis, a data store system
+optimized for speed.</p>
 
 <h2>Candy</h2>
 
+<p><img
+src="http://candy-chat.github.com/candy/public/images/screenshot.png" style="width: 700px"/></p>
+
+<p><a href="http://candy-chat.github.com/candy/">Candy</a> is another client server option written in fully in javascript
+built on top of XMPP for communities to chat with each other. I didn't
+see whether or not logging/search was built in.</p>
+
 <h2>QWebIRC</h2>
-;T;@Ä"/assets/images/right/{;{ :versioni
+
+<p><a href="http://qwebirc.org/">QWebIRC</a> is a online IRC client that has been around for more than 4
+years. It was designed for use in on the quake network.</p>
+;T;@Ä"/assets/images/right/{;{ "/assets/images/infinite/{;{ :versioni
