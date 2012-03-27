@@ -1,4 +1,4 @@
-{:	data{-I"/stylesheet/:ET{:default{:	lastI"	* {
+{:	data{.I"/stylesheet/:ET{:default{:	lastI"	* {
   margin: 0;
   padding: 0;
 
@@ -108,7 +108,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"ß<!DOCTYPE HTML>
+I"/;T{;{	;I"”<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -132,7 +132,9 @@ I"/;T{;{	;I"ß<!DOCTYPE HTML>
 <p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -141,6 +143,7 @@ I"/;T{;{	;I"ß<!DOCTYPE HTML>
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -173,7 +176,7 @@ I"ı<h2>I create applications on the web.</h2>
 <a href="/projects/reglib/"><img class="framed_pic" src="/assets/images/classes-thumb.png"/></a>
 <a href="/projects/lug/"><img class="framed_pic" src="/assets/images/lug-thumb.png"/></a>
 
-<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"ú<!DOCTYPE HTML>
+<p>Right now my main focus is <a href="http://www.ridezap.com">RideZap</a>.</p>;T:	post@I"/about/;T{;{	;I"»<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -200,7 +203,9 @@ I"ı<h2>I create applications on the web.</h2>
 <img class="framed_pic" src="/assets/images/me.jpg"/>
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -209,6 +214,7 @@ I"ı<h2>I create applications on the web.</h2>
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -247,7 +253,7 @@ I"È<h1>Eat.Sleep.Develop</h1>
 
 <p>This website will serve as a outlet for my portfolio and my thoughs on programming. I am also open to work as a freelancer on your next project.</p>
 
-<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"{
+<img class="framed_pic" src="/assets/images/me.jpg"/>;T;@I"	/me/;T{;{ I"/favicon/;T{;{ I"/blog/;T{;{	;I"ß
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -289,7 +295,9 @@ A client that connects to a ...</p>
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -298,6 +306,7 @@ A client that connects to a ...</p>
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -372,7 +381,7 @@ Test
 ;T;
 I"
 Test
-;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"®<!DOCTYPE HTML>
+;T;@&I"!/blog/static_web_frameworks/;T{;{	;I"‘<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -428,7 +437,9 @@ Test
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -437,6 +448,7 @@ Test
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -571,7 +583,7 @@ I"π<p>This is a test.</p>
 <pre class="CodeRay"><code class="language-python"><span class="keyword">def</span> <span class="function">test_function</span>()
     do something</code></pre>
 
-;T;@2I"/playground/;T{;{	;I""<!DOCTYPE HTML>
+;T;@2I"/playground/;T{;{	;I"N<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -594,7 +606,9 @@ I"π<p>This is a test.</p>
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -603,6 +617,7 @@ I"π<p>This is a test.</p>
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -630,7 +645,7 @@ I"j
 
     <h3><a href="/playground/language_game/">Google Image Language Game</a></h3>
     <p>A little language game I am working on to play with the Google Image API.</p>
-;T;@8I"/projects/;T{;{	;I"<!DOCTYPE HTML>
+;T;@8I"/projects/;T{;{	;I"8<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -697,7 +712,9 @@ I"j
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -706,6 +723,7 @@ I"j
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -1052,7 +1070,7 @@ table.CodeRay {
 }
 
 ;T;	@J;
-@JI"$/assets/stylesheets/stylesheet/;T{;{;I"µ* {
+@JI"$/assets/stylesheets/stylesheet/;T{;{;I"* {
   margin: 0;
   padding: 0;
 
@@ -1121,21 +1139,24 @@ a:hover {
 
 #sidebar {
   position: fixed;
-  top: 40px;
-  left: 60px;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+  padding-left: 60px;
   width: 200px;
-  height: 90%;
+  height: 100%;
   border-right: 1px solid #ccc;
   background: #F8F8F8;
 }
 
-#sidebar h2 a{
+#logo a{
   color: #333;
   letter-spacing: 1px;
   line-height: 20px;
   font-family: 'Damion';
   text-transform: none;
   font-weight:normal;
+  border-bottom: 4px solid #577664;
 }
 
 #sidebar ul {
@@ -1161,6 +1182,16 @@ a:hover {
   color:#333;
 }
 
+#edge{
+  position: absolute;
+  top: 0px;
+  left: 261px;
+  width: 40px;
+  height: 100%;
+  background: -webkit-linear-gradient(right, rgba(248, 248, 248,0), rgba(248, 248, 248, 1));
+  background: -moz-linear-gradient(right, rgba(248, 248, 248, 0), rgba(248, 248, 248, 1));
+}
+
 .framed_pic{
   border: 1px solid #ccc;
   padding:4px;
@@ -1172,7 +1203,7 @@ a:hover {
   float: left;
 }
 ;T;	@N;
-@NI"/contact/;T{;{	;I"e<!DOCTYPE HTML>
+@NI"/contact/;T{;{	;I"ë<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1192,7 +1223,9 @@ a:hover {
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -1201,6 +1234,7 @@ a:hover {
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -1225,7 +1259,7 @@ a:hover {
 I"∑<p>I am available to help you on any web work you would like to get done</p>
 <p>Email: <a href="mailto:dpcontacter@gmail.com">dpcontacter@gmail.com</a></p>
 <p>Phone: 541-203-0228</p>
-;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I"/<!DOCTYPE HTML>
+;T;@RI"/assets/images/me/;T{;{ I""/assets/images/ridezap-thumb/;T{;{ I"/assets/images/dmca-thumb/;T{;{ I"/assets/images/lug-thumb/;T{;{ I""/assets/images/classes-thumb/;T{;{ I"/projects/reglib/;T{;{	;I"[<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1258,7 +1292,9 @@ I"∑<p>I am available to help you on any web work you would like to get done</p>
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -1267,6 +1303,7 @@ I"∑<p>I am available to help you on any web work you would like to get done</p>
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -1286,7 +1323,7 @@ I"∑<p>I am available to help you on any web work you would like to get done</p>
 </html>
 ;T;	I" ;F;
 I"
-;F;@gI"/projects/ridezap/;T{;{	;I"b<!DOCTYPE HTML>
+;F;@gI"/projects/ridezap/;T{;{	;I"é<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1319,7 +1356,9 @@ I"
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -1328,6 +1367,7 @@ I"
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -1347,7 +1387,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@mI"/projects/lug/;T{;{	;I"ï<!DOCTYPE HTML>
+;F;@mI"/projects/lug/;T{;{	;I"¡<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1380,7 +1420,9 @@ I"
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -1389,6 +1431,7 @@ I"
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -1408,7 +1451,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@sI"/projects/dmca/;T{;{	;I"©<!DOCTYPE HTML>
+;F;@sI"/projects/dmca/;T{;{	;I"’<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1438,7 +1481,9 @@ I"
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -1447,6 +1492,7 @@ I"
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -1466,7 +1512,7 @@ I"
 </html>
 ;T;	I" ;F;
 I"
-;F;@yI" /playground/facebook_music/;T{;{	;I"}<!DOCTYPE HTML>
+;F;@yI" /playground/facebook_music/;T{;{	;I"©<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1503,7 +1549,9 @@ I"
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -1512,6 +1560,7 @@ I"
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -1816,7 +1865,7 @@ I"¨<div id="fb-root">
 </div>
 
 
-;T;@I"/playground/language_game/;T{;{	;I"¥<!DOCTYPE HTML>
+;T;@I"/playground/language_game/;T{;{	;I"‡<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1848,7 +1897,9 @@ I"¨<div id="fb-root">
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -1857,6 +1908,7 @@ I"¨<div id="fb-root">
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -2237,7 +2289,7 @@ I"€<div id="score" style="text-align: right; font-size:24px;">0 points</div>
   <p>Instructions: To play the language game just start typing in what you see from the pictures(In French).</p>
 </div>
 
-;T;@ÄI"/blog/startup_school/;T{;{	;I".<!DOCTYPE HTML>
+;T;@ÄI"/blog/startup_school/;T{;{	;I"H.<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -2325,7 +2377,9 @@ I"€<div id="score" style="text-align: right; font-size:24px;">0 points</div>
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -2334,6 +2388,7 @@ I"€<div id="score" style="text-align: right; font-size:24px;">0 points</div>
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -2488,7 +2543,7 @@ I"„'<p>This year I was fortunate enough to be able to attend <a href="http://st
 <h2>Conclusion</h2>
 
 <p>It was a great experience to attend startup school. i very much getting to meet many different types of people. I feel that Paul Graham's point sticks with me the most though. You should not just start a company just for the sake of starting a company. Having an idea and vision is important, things should not be the secondary concern. Thanks to the whole Y-Combinator crew for putting this on and happy hacking!</p>
-;T;@ÜI"/blog/opensource_ridezap/;T{;{	;I"˘<!DOCTYPE HTML>
+;T;@ÜI"/blog/opensource_ridezap/;T{;{	;I"%<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -2518,7 +2573,9 @@ I"„'<p>This year I was fortunate enough to be able to attend <a href="http://st
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -2527,6 +2584,7 @@ I"„'<p>This year I was fortunate enough to be able to attend <a href="http://st
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -2562,7 +2620,7 @@ I"Ë<p><a href="http://www.ridezap.com">Ridezap</a> is getting <a href="https:/
 <p>So if you are excited about ridesharing and would like to do a website, feel free to use this code as a base. If you need a small solution for your organization you could as well. If you just want to contribute to this project that would make me tremendously happy and your contributions will probably get into Ridezap.com which I will continue to run.</p>
 
 <p>A quick note on what Ridezap was built on. I built the site in Rails, migrated it forward to the 3.1 release. A lot of the frontend interaction is done with jQuery, and certain elements of the site use jQuery UI. The look and feel is largely from twitter's bootstrap framework.</p>
-;T;@åI"/presentations/;T{;{	;I"U<!DOCTYPE HTML>
+;T;@åI"/presentations/;T{;{	;I"Å<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -2582,7 +2640,9 @@ I"Ë<p><a href="http://www.ridezap.com">Ridezap</a> is getting <a href="https:/
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -2591,6 +2651,7 @@ I"Ë<p><a href="http://www.ridezap.com">Ridezap</a> is getting <a href="https:/
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -4659,7 +4720,7 @@ h2.center{
   });
 });
 ;T;	@∫;
-@∫I"/blog/november_dreaming/;T{;{	;I"S<!DOCTYPE HTML>
+@∫I"/blog/november_dreaming/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -4701,7 +4762,9 @@ h2.center{
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -4710,6 +4773,7 @@ h2.center{
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -4766,7 +4830,7 @@ I"(
 <h2>Automation on steroids</h2>
 
 <p> is a cool new service that allows you to create little task automations. Based on the inputs from different services you are able to funnel data and manipulate it. It takes advantage of many web APIs and creates an easy to use interface. What I would like to see is an easier way to do automation and more complex automation. With an interface similar to Yahoo Pipes. You could drag services and "connect" them with pipes. Also being able to use boolean logic to make them look similar to add something similar to "AND" and "OR" gates on boolean logic would be cool.</p>
-;T;@æ"%/blog/comparing_webchat_options/{;{	;I"-<!DOCTYPE HTML>
+;T;@æ"%/blog/comparing_webchat_options/{;{	;I"Y<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -4796,7 +4860,9 @@ I"(
 
     </div>
     <div id="sidebar">
-      <h2 id="logo"><a href="/">David Petersen</a></h2>
+      <h2 id="logo">
+        <a href="/">David Petersen</a>
+      </h2>
       <ul>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
@@ -4805,6 +4871,7 @@ I"(
         <li><a href="/presentations/">Presentations</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
@@ -4840,4 +4907,4 @@ I"<p>I have been working the last two month on an IRC web client. During this
 <h2>Candy</h2>
 
 <h2>QWebIRC</h2>
-;T;@ƒ:versioni
+;T;@ƒ"/assets/images/right/{;{ :versioni

@@ -17,7 +17,9 @@
       <%= yield %>
     </div>
     <div id="sidebar">
-      <h2 id="logo"><%= link_to("David Petersen", "/") %></h2>
+      <h2 id="logo">
+        <%= link_to("David Petersen", "/") %>
+      </h2>
       <ul>
         <li><%= link_to("Blog", "/blog/") %></li>
         <li><%= link_to("About", "/about/") %></li>
@@ -26,6 +28,7 @@
         <li><%= link_to("Presentations", "/presentations/") %></li>
         <li><%= link_to("Contact", "/contact/") %></li>
       </ul>
+      <div id="edge"></div>
     </div>
   <script type="text/javascript">
 
